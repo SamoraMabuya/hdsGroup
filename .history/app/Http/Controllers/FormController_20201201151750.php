@@ -94,6 +94,8 @@ class FormController extends Controller {
         $mail->from('samora.sm.sam@gmail.com',$request->name);
         $mail->to("samora.sm.sam@gmail.com")->subject('Contact us message');
         $mail->attach('data.csv');
+        return "Message has been sent successfully";
+
     }
 
         return "Message has been sent successfully";

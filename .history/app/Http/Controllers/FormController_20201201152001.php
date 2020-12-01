@@ -85,7 +85,7 @@ class FormController extends Controller {
 
 
         function($mail) use($request) {  
-            if ($_POST['branch'] == 'Church Street') {
+            @if ($_POST['branch'] == 'Church Street') {
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
                 $mail->to("mrsamoramabuya@gmail.com")->subject('Contact us message');
                 $mail->attach('data.csv');

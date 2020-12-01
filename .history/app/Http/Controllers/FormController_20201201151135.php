@@ -81,11 +81,10 @@ class FormController extends Controller {
             'msg' => $request->msg
 
         ], 
-        
 
 
         function($mail) use($request) {  
-            if ($_POST['branch'] == 'Church Street') {
+            @if ($_POST['branch'] == 'Church Street') {
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
                 $mail->to("mrsamoramabuya@gmail.com")->subject('Contact us message');
                 $mail->attach('data.csv');
@@ -95,10 +94,5 @@ class FormController extends Controller {
         $mail->to("samora.sm.sam@gmail.com")->subject('Contact us message');
         $mail->attach('data.csv');
     }
-
         return "Message has been sent successfully";
-        });
-    }
-}
-
-    
+        
