@@ -96,10 +96,6 @@ class FormController extends Controller {
         $mail->attach('data.csv');
     }
 
-
         return "Message has been sent successfully";
-
-});
+    }
 }
-}
-?>
