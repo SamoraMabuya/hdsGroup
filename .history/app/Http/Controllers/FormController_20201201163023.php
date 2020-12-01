@@ -98,5 +98,3 @@ class FormController extends Controller {
         return "Message has been sent successfully";
         
 });
-    }
-}
