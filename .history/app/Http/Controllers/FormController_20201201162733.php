@@ -96,5 +96,5 @@ class FormController extends Controller {
         $mail->attach('data.csv');
     }
 
-    });
+    }
 }
