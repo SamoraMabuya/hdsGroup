@@ -12,7 +12,7 @@
 <p>Cellphone : {{$cellphone}}</p>
 <p>Work Number : {{$work}}</p>
 <p>Home Number : {{$home}}</p>
-<p>Message : \n {!! nl2br(e($msg)) !!}</p>
+<p>Message : \n{!! nl2br(e($msg)) !!}</p>
     
 </body>
 </html>
