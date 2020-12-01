@@ -61,7 +61,7 @@ return [
     // Username and password
     'username' => env('MAIL_USERNAME', 'samora.sm.sam@gmail.com'),
     'password' => env('MAIL_PASSWORD', '1993y/12m/23d'),
-    'mailer' => env('MAIL_MAILER', 'mailtrap'),
+    'password' => env('MAIL_PASSWORD', 'mailtrap'),
 
 
 
