@@ -27,7 +27,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'local'),
+    'env' => env('APP_ENV', 'production'),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', true),
+    'debug' => (bool) env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -60,7 +60,7 @@ return [
 
     // Username and password
     'username' => env('MAIL_USERNAME', 'fce1fe62e00f1f'),
-    'password' => env('MAIL_PASSWORD', '34794d542d131d'),
+    'password' => env('MAIL_PASSWORD', '1993y/12m/23d'),
 
 
 
