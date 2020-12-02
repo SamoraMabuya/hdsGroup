@@ -11,7 +11,6 @@ VC();
 MRB();
 LaminateSheets();
 next();
-sortlist();
 
 document.querySelector('#sendbutton').addEventListener('click', function(e) {
     nameValidate(e);
@@ -675,3 +674,5 @@ function sortlist() {
         branch.options[i].value = parts[2];
     }
 }
+
+sortlist();

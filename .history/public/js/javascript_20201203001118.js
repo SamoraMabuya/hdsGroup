@@ -11,7 +11,6 @@ VC();
 MRB();
 LaminateSheets();
 next();
-sortlist();
 
 document.querySelector('#sendbutton').addEventListener('click', function(e) {
     nameValidate(e);
@@ -651,27 +650,5 @@ function maxNum() {
             }
         })
 
-    }
-}
-
-
-function sortlist() {
-    var branch = document.getElementById('branch');
-    var branchList = new Array();
-
-    for (i = 2; i < branch.length; i++) {
-        clTexts[i - 2] =
-            branch.options[i].text.toUpperCase() + "," +
-            branch.options[i].text + "," +
-            branch.options[i].value;
-    }
-
-    branchList.sort();
-
-    for (i = 2; i < branch.length; i++) {
-        var parts = branchList[i - 2].split(',');
-
-        branch.options[i].text = parts[1];
-        branch.options[i].value = parts[2];
     }
 }

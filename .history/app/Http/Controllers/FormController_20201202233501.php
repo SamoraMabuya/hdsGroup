@@ -63,7 +63,7 @@ class FormController extends Controller {
         array($_POST['masonite-colour39'], $_POST['length19'], $_POST['width19'], $_POST['quantity19']),
         array($_POST['masonite-colour40'], $_POST['length20'], $_POST['width20'], $_POST['quantity20']),
         );
-            $file = fopen("form.csv", "w");
+            $file = fopen("data.csv", "w");
 
             foreach ($data as $line) {
             fputcsv($file, $line);
@@ -86,7 +86,7 @@ class FormController extends Controller {
         function($mail) use($request) {  
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
                 $mail->to(['sales@hds.co.za', 'samora.sm.sam@gmail.com'])->subject('HDS Form');
-                $mail->attach('form.csv');
+                $mail->attach('data.csv');
 
         });
             

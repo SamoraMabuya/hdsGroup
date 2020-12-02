@@ -10,8 +10,6 @@ melamine();
 VC();
 MRB();
 LaminateSheets();
-next();
-sortlist();
 
 document.querySelector('#sendbutton').addEventListener('click', function(e) {
     nameValidate(e);
@@ -614,22 +612,20 @@ function LaminateSheets() {
 }
 
 
-function next() {
-    const input = document.querySelectorAll('#input');
-    for (var i = 0; i < input.length; i++) {
-        input[i].addEventListener("keypress", function(e) {
-            if (e.which == 13) {
-                e.preventDefault();
-                var next = document.querySelectorAll('[tabIndex="' + (this.tabIndex + 1) + '"]');
-                if (next.length === 0) {
-                    next = document.querySelectorAll('[tabIndex="1"]');
-                }
-                next[0].focus();
-            }
-        })
-    }
-}
 
+const input = document.querySelectorAll('#input');
+for (var i = 0; i < input.length; i++) {
+    input[i].addEventListener("keypress", function(e) {
+        if (e.which == 13) {
+            e.preventDefault();
+            var next = document.querySelectorAll('[tabIndex="' + (this.tabIndex + 1) + '"]');
+            if (next.length === 0) {
+                next = document.querySelectorAll('[tabIndex="1"]');
+            }
+            next[0].focus();
+        }
+    })
+}
 
 function maxNum() {
     const valueLength = document.querySelectorAll('.inputLength');
@@ -651,27 +647,5 @@ function maxNum() {
             }
         })
 
-    }
-}
-
-
-function sortlist() {
-    var branch = document.getElementById('branch');
-    var branchList = new Array();
-
-    for (i = 2; i < branch.length; i++) {
-        clTexts[i - 2] =
-            branch.options[i].text.toUpperCase() + "," +
-            branch.options[i].text + "," +
-            branch.options[i].value;
-    }
-
-    branchList.sort();
-
-    for (i = 2; i < branch.length; i++) {
-        var parts = branchList[i - 2].split(',');
-
-        branch.options[i].text = parts[1];
-        branch.options[i].value = parts[2];
     }
 }
