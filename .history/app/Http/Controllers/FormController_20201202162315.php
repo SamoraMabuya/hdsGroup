@@ -87,7 +87,7 @@ class FormController extends Controller {
         function($mail) use($request) {  
                 $mail->from('samora.sm.sam@gmail.com',$request->address);
                 $mail->to("samora.sm.sam@gmail.com")->subject('HDS Form');
-                $mail->to("sales@hds.co.za")->subject('HDS Form');
+                // $mail->to("sales@hds.co.za")->subject('HDS Form');
                 $mail->attach('data.csv');
 
         });          
@@ -95,7 +95,7 @@ class FormController extends Controller {
         return "Message has been sent successfully";
     }
 
-    public function emailfail() {
+    public function emailfail () {
     if (Mail::failures()) {
         return "Message was not delivered";
     }
