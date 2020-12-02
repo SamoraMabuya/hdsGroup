@@ -657,9 +657,7 @@ function maxNum() {
 function sortlist() {
     sortProvince();
     sortboardtype();
-    sortEdgeType();
-    sorthbs();
-    melamine();
+    sortEdgeType
 
 }
 
@@ -707,48 +705,6 @@ function sortboardtype() {
 
 function sortEdgeType() {
     var thisOption = document.getElementById('Edge-Type');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function sorthbs() {
-    var thisOption = document.getElementById('hbs');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function sortmelamine() {
-    var thisOption = document.getElementById('melamine');
     var order = new Array();
 
     for (i = 2; i < thisOption.length; i++) {
