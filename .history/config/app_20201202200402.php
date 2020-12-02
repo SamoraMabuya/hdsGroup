@@ -61,7 +61,7 @@ return [
     // Username and password
     'username' => env('MAIL_USERNAME'),
     'password' => env('MAIL_PASSWORD'),
-    'driver' => env('MAIL_MAILER', 'mail'),
+    'driver' => env('MAIL_MAILER', 'smtp'),
     'host' => env('MAIL_HOST', 'smtp.gmail.com'),
     'port' => env('MAIL_PORT', 2525),
     'from' => env('MAIL_ADDRESS', 'samora.sm.sam@gmail.com'),
