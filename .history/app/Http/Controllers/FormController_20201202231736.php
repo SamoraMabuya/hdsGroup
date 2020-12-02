@@ -69,8 +69,7 @@ class FormController extends Controller {
             fputcsv($file, $line);
             }
             fclose($file);
-        }
-    }
+    
             $emails = ['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'];
 
 
@@ -94,4 +93,5 @@ class FormController extends Controller {
             
         return "Message has been sent successfully";
         
- 
+    }
+}

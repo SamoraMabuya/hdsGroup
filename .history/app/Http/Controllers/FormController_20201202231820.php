@@ -69,8 +69,7 @@ class FormController extends Controller {
             fputcsv($file, $line);
             }
             fclose($file);
-        }
-    }
+        
             $emails = ['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'];
 
 
@@ -83,7 +82,8 @@ class FormController extends Controller {
             'msg' => $request->msg
 
         ], 
-        
+        $emails = ['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'];
+
 
         function($mail) use($request) {  
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
