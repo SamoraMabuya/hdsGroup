@@ -93,11 +93,6 @@ class FormController extends Controller {
         });          
 
         return "Message has been sent successfully";
+        
     }
-}
-
-    if (Mail::failures()) {
-        return "Message was not delivered";
-
-
 }

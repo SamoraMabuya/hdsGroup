@@ -90,14 +90,10 @@ class FormController extends Controller {
                 // $mail->to("sales@hds.co.za")->subject('HDS Form');
                 $mail->attach('data.csv');
 
-        });          
+        });
+            
 
         return "Message has been sent successfully";
+        
     }
-}
-
-    if (Mail::failures()) {
-        return "Message was not delivered";
-
-
 }
