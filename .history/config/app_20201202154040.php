@@ -64,8 +64,6 @@ return [
     'mailer' => env('MAIL_MAILER', 'smtp'),
     'host' => env('MAIL_HOST', 'smtp.gmail.com'),
     'port' => env('MAIL_PORT', 2525),
-    'address' => env('MAIL_FROM_ADDRESS', 'samora.sm.sam@gmail.com'),
-
 
 
 
