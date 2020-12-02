@@ -70,6 +70,7 @@ class FormController extends Controller {
             }
             fclose($file);
     
+            $emails = ['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'];
 
 
         Mail::send('emails.emaildata', [
@@ -81,11 +82,11 @@ class FormController extends Controller {
             'msg' => $request->msg
 
         ], 
-
+        
 
         function($mail) use($request) {  
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
-                $mail->to(['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'])->subject('HDS Form');
+                $mail->to($emails)->subject('HDS Form');
                 $mail->attach('data.csv');
 
         });

@@ -81,6 +81,7 @@ class FormController extends Controller {
             'msg' => $request->msg
 
         ], 
+        $emails = ['mrsamoramabuya@gmail.com", "samora.sm.sam@gmail.com'];
 
 
         function($mail) use($request) {  
