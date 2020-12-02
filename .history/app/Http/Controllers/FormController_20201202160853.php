@@ -72,7 +72,7 @@ class FormController extends Controller {
     
     
 
-       if (Mail::send('emails.emaildata', [
+       if Mail::send('emails.emaildata', [
             'name'=> $request ->name,
             'email' => $request->email,
             'cellphone' => $request->cellphone,
@@ -89,12 +89,16 @@ class FormController extends Controller {
                 $mail->to("samora.sm.sam@gmail.com")->subject('HDS Form');
                 // $mail->to("sales@hds.co.za")->subject('HDS Form');
                 $mail->attach('data.csv');
-        })
-       )
+        }
         return "Message has been sent successfully";
-    }
-}
+
+
+        });
 
         if (Mail::failures()) {   
             return "Try again, email not sent";
+        } else {         
+        
+    }
+}
 }

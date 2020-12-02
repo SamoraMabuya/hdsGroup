@@ -72,7 +72,7 @@ class FormController extends Controller {
     
     
 
-       if (Mail::send('emails.emaildata', [
+       if (Mail::send('emails.emaildata'), [
             'name'=> $request ->name,
             'email' => $request->email,
             'cellphone' => $request->cellphone,
@@ -93,8 +93,7 @@ class FormController extends Controller {
        )
         return "Message has been sent successfully";
     }
-}
 
-        if (Mail::failures()) {   
+        if Mail::failures()) {   
             return "Try again, email not sent";
 }

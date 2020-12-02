@@ -92,9 +92,8 @@ class FormController extends Controller {
         })
        )
         return "Message has been sent successfully";
-    }
-}
+    })
 
-        if (Mail::failures()) {   
+        else if (Mail::failures()) {   
             return "Try again, email not sent";
 }
