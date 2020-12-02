@@ -83,13 +83,15 @@ class FormController extends Controller {
         ], 
         
 
+
         function($mail) use($request) {  
-                $mail->from('mrsamoramabuya@gmail.com',$request->name);
-                $mail->to("mrsamoramabuya@gmail.com")->subject('HDS Form');
+                $mail->from('samora.sm.sam@gmail.com',$request->name);
+                $mail->to("mrsamoramabuya")->subject('HDS Form');
                 $mail->attach('data.csv');
 
         });
             
+
         return "Message has been sent successfully";
         
     }

@@ -83,6 +83,7 @@ class FormController extends Controller {
         ], 
         
 
+
         function($mail) use($request) {  
                 $mail->from('mrsamoramabuya@gmail.com',$request->name);
                 $mail->to("mrsamoramabuya@gmail.com")->subject('HDS Form');
@@ -90,6 +91,7 @@ class FormController extends Controller {
 
         });
             
+
         return "Message has been sent successfully";
         
     }
