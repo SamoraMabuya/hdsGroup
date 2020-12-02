@@ -6,10 +6,6 @@ return [
     'port' => env('MAIL_PORT', 2525),
     'from' => env('MAIL_ADDRESS', 'samora.sm.sam@gmail.com'),
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-    'username' => env('MAIL_USERNAME'),
-    'password' => env('MAIL_PASSWORD'),
-    'sendmail' => '/usr/sbin/sendmail -bs',
-    'pretend' => false,
 
 
 
