@@ -164,7 +164,7 @@ function hbs() {
     hbs.addEventListener('change', function() {
         if (hbs.selectedIndex === 0) {
             document.querySelector('.preview').style.visibility = "hidden";
-        } else if (hbs.selectedIndex === 1) {
+        } else if (hbs.selectedIndex === '') {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Mirror+Board.JPG";
@@ -654,204 +654,73 @@ function maxNum() {
     }
 }
 
-// function sortlist() {
-//     sortProvince();
-//     sortboardtype();
-//     sortEdgeType();
-//     sorthbs();
-//     sortmelamine();
-//     sortVC();
-//     sortfoil();
-//     sortMRB();
-//     sortLS();
+function sortlist() {
+    sortProvince();
+    sortboardtype();
+    sortEdgeType();
 
-// }
 
-// function sortProvince() {
-//     var thisOption = document.getElementById('branch');
-//     var order = new Array();
+}
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
+function sortProvince() {
+    var thisOption = document.getElementById('branch');
+    var order = new Array();
 
-//     order.sort();
+    for (i = 2; i < thisOption.length; i++) {
+        order[i - 2] =
+            thisOption.options[i].text.toUpperCase() + "," +
+            thisOption.options[i].text + "," +
+            thisOption.options[i].value;
+    }
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
+    order.sort();
 
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
+    for (i = 2; i < thisOption.length; i++) {
+        var parts = order[i - 2].split(',');
 
-// function sortboardtype() {
-//     var thisOption = document.getElementById('board-type');
-//     var order = new Array();
+        thisOption.options[i].text = parts[1];
+        thisOption.options[i].value = parts[2];
+    }
+}
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
+function sortboardtype() {
+    var thisOption = document.getElementById('board-type');
+    var order = new Array();
 
-//     order.sort();
+    for (i = 2; i < thisOption.length; i++) {
+        order[i - 2] =
+            thisOption.options[i].text.toUpperCase() + "," +
+            thisOption.options[i].text + "," +
+            thisOption.options[i].value;
+    }
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
+    order.sort();
 
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
+    for (i = 2; i < thisOption.length; i++) {
+        var parts = order[i - 2].split(',');
 
-// function sortEdgeType() {
-//     var thisOption = document.getElementById('Edge-Type');
-//     var order = new Array();
+        thisOption.options[i].text = parts[1];
+        thisOption.options[i].value = parts[2];
+    }
+}
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
+function sortEdgeType() {
+    var thisOption = document.getElementById('Edge-Type');
+    var order = new Array();
 
-//     order.sort();
+    for (i = 2; i < thisOption.length; i++) {
+        order[i - 2] =
+            thisOption.options[i].text.toUpperCase() + "," +
+            thisOption.options[i].text + "," +
+            thisOption.options[i].value;
+    }
 
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
+    order.sort();
 
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
+    for (i = 2; i < thisOption.length; i++) {
+        var parts = order[i - 2].split(',');
 
-// function sorthbs() {
-//     var thisOption = document.getElementById('hbs');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
-
-// function sortmelamine() {
-//     var thisOption = document.getElementById('melamine');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
-
-// function sortVC() {
-//     var thisOption = document.getElementById('VC');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
-
-// function sortfoil() {
-//     var thisOption = document.getElementById('foil');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
-
-// function sortMRB() {
-//     var thisOption = document.getElementById('MRB');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
-
-// function sortLS() {
-//     var thisOption = document.getElementById('Laminate-Sheets');
-//     var order = new Array();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         order[i - 2] =
-//             thisOption.options[i].text.toUpperCase() + "," +
-//             thisOption.options[i].text + "," +
-//             thisOption.options[i].value;
-//     }
-
-//     order.sort();
-
-//     for (i = 2; i < thisOption.length; i++) {
-//         var parts = order[i - 2].split(',');
-
-//         thisOption.options[i].text = parts[1];
-//         thisOption.options[i].value = parts[2];
-//     }
-// }
+        thisOption.options[i].text = parts[1];
+        thisOption.options[i].value = parts[2];
+    }
+}
