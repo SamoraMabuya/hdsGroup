@@ -15,7 +15,6 @@ class FormController extends Controller {
     }
       
     public function formSubmit(Request $request) {
-        
 
           $data = array(
         array('Board color', 'Length(mm)', 'Width (mm)', 'Quantity', 'Grain', 'Edge Length', 'Edge Width', 'Potholes', 'Edge Material (mm)'),
@@ -74,7 +73,6 @@ class FormController extends Controller {
 
 
         Mail::send('emails.emaildata', [
-            'branch' => $request ->branch,
             'name'=> $request ->name,
             'email' => $request->email,
             'cellphone' => $request->cellphone,
@@ -87,7 +85,7 @@ class FormController extends Controller {
 
         function($mail) use($request) {  
                 $mail->from('samora.sm.sam@gmail.com',$request->name);
-                $mail->to(['samora.sm.sam@gmail.com', 'mrmabuyasamora@gmail.com' ])->subject('HDS Form');
+                $mail->to(['sales@hdsgroup.co.za', 'samora.sm.sam@gmail.com', 'Kyleeradesign@gmail.com', 'mrmabuyasamora@gmail.com' ])->subject('HDS Form');
                 $mail->attach('form.csv');
 
         });
