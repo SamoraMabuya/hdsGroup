@@ -12,7 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'form.submit', 'https://hdspreview.herokuapp.com/'
+        'form.submit'
 
         //
     ];
