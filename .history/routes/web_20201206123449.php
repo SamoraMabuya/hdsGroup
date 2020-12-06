@@ -5,7 +5,6 @@ use App\Mail\WelcomeMail;
 use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\URL;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,9 +15,6 @@ use Illuminate\Support\Facades\URL;
 | contains the "web" middleware group. Now create something great!
 |
 */
-if (App::environment('production')) {
-    URL::forceScheme('https');
-}
 
 Route::get('/', 'App\Http\Controllers\FormController@contact');
 Route::post('/', 'App\Http\Controllers\FormController@emailfail');
@@ -26,6 +22,9 @@ Route::post('/', 'App\Http\Controllers\FormController@formSubmit')->name('form.s
 Route::get('users/export/', 'FormController@formSubmit');
 Route::view('/', 'form');
 
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 
 
 // Route::get('/', function () {
