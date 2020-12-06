@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\App;
-
 if (App::environment('production')) {
     URL::forceScheme('https');
 }
