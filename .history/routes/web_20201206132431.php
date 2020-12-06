@@ -1,7 +1,6 @@
 <?php 
 if (App::environment('production')) {
     URL::forceScheme('https');
-}
 
 use App\Mail\WelcomeMail;
 
