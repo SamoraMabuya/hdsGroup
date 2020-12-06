@@ -92,7 +92,7 @@ class FormController extends Controller {
 
         });
             
-        return `<center>
+        echo "<center>
         <div class="sentbox">
             <h1>Message has been sent.
                 <br> We'll contact you soon.
@@ -123,7 +123,7 @@ class FormController extends Controller {
             font-size: 26px;
             line-height: 35px;
         }
-    </style>`;
+    </style>";
         
     }
 }
