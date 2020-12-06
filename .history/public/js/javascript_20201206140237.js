@@ -13,11 +13,6 @@ LaminateSheets();
 next();
 sortlist();
 sendbutton();
-alert();
-
-function alert() {
-    console.log('alert');
-}
 
 function sendbutton() {
     document.querySelector('.sendbutton').addEventListener('click', function(e) {

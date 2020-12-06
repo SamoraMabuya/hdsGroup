@@ -13,9 +13,8 @@ LaminateSheets();
 next();
 sortlist();
 sendbutton();
-alert();
 
-function alert() {
+function aler() {
     console.log('alert');
 }
 

@@ -12,25 +12,16 @@ MRB();
 LaminateSheets();
 next();
 sortlist();
-sendbutton();
-alert();
 
-function alert() {
-    console.log('alert');
-}
+document.querySelector('.sendbutton').addEventListener('click', function(e) {
+    nameValidate(e);
+    emailValidate(e);
+    numberValidate(e);
+    workNumber(e);
+    homeNumber(e);
+    checkBranch(e);
 
-function sendbutton() {
-    document.querySelector('.sendbutton').addEventListener('click', function(e) {
-        nameValidate(e);
-        emailValidate(e);
-        numberValidate(e);
-        workNumber(e);
-        homeNumber(e);
-        checkBranch(e);
-
-    });
-
-}
+});
 
 
 document.querySelector('.form').addEventListener('submit', function(e) {
