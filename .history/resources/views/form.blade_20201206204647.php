@@ -409,6 +409,7 @@
                                                 <option value=" Winery Rouge ">Winery Rouge</option>
                                                 <option value=" Titan ">Titan</option>
                                             </optgroup>
+
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -440,26 +441,30 @@
                                                 <option value="White Linen">White Linen</option>
                                             </optgroup>
                                             <optgroup label="Woodgrains">
-                                                <option value=" Alaskan Cherry ">Alaskan Cherry</option>
-                                                <option value=" Balsa "> Balsa</option>
-                                                <option value=" Carolina Cedar ">Carolina Cedar</option>
-                                                <option value=" Cherry Royal ">Cherry Royal</option>
-                                                <option value=" Dakota Oak ">Dakota Oak</option>
-                                                <option value=" Espirito ">Espirito</option>
-                                                <option value=" Hickory Oak ">Hickory Oak</option>
+                                            <option value=" Alaskan Cherry ">Alaskan Cherry</option>
+                                            <option value=" Balsa "> Balsa</option>
+                                            <option value=" Carolina Cedar ">Carolina Cedar</option>
+                                            <option value=" Cherry Royal ">Cherry Royal</option>
+                                            <option value=" Dakota Oak ">Dakota Oak</option>
+                                            <option value=" Espirito ">Espirito</option>
+                                            <option value=" Hickory Oak ">Hickory Oak</option>
+                                            <option value=" Lancaster Oak ">Lancaster Oak</option>
+                                            <option value=" Larese ">Larese</option>
+                                            <option value=" Lumber Ash ">Lumber Ash</option>
+
+
+                                                <option value=" Nappa oak ">Nappa Oak</option>
+                                                <option value=" Savannah ">Savannah</option>
+                                                <option value=" Norwegian Birch ">Norwegian Birch</option>
+                                                <option value=" Washed Oak ">Washed Oak</option>
                                                 <option value=" Glaston Berry ">Glaston Berry</option>
                                                 <option value=" Jackson Hickory ">Jackson Hickory</option>
-                                                <option value=" Lancaster Oak ">Lancaster Oak</option>
-                                                <option value=" Larese ">Larese</option>
-                                                <option value=" Liberty Oak ">Liberty Oak</option>
-                                                <option value=" Lumber Ash ">Lumber Ash</option>
                                                 <option value=" Marula ">Marula</option>
-                                                <option value=" Nappa oak ">Nappa Oak</option>
-                                                <option value=" Norwegian Birch ">Norwegian Birch</option>
                                                 <option value=" Royal Mahogany ">Royal Mahogany</option>
-                                                <option value=" Savannah ">Savannah</option>
-                                                <option value=" Washed Oak ">Washed Oak</option>
-                                            </optgroup>                            
+                                                <option value=" Liberty Oak ">Liberty Oak</option>
+                                            </optgroup>
+                                 
+                                 
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -502,15 +507,15 @@
                                         <select style="border: none; outline: 0px" id="foil" name="Foil-Boards">
                                             <option value=" Foil Boards ">Foil Boards</option>
                                             <option value=" Italian Walnut ">Italian Walnut</option>
-                                            <option value=" Black Cherry ">Black Cherry</option>
                                             <option value=" Black Oak ">Black Oak</option>
+                                            <option value=" Black Cherry ">Black Cherry</option>
                                             <option value=" Cosmos Pecan ">Cosmos Pecan</option>
-                                            <option value=" July Beech ">July Beech</option>
-                                            <option value=" Kiaat ">Kiaat</option>
                                             <option value=" Lake City Oak ">Lake City Oak</option>
+                                            <option value=" Kiaat ">Kiaat</option>
                                             <option value=" Maluti Walnut ">Maluti Walnut</option>
                                             <option value=" Pecan / Ironwood ">Pecan / Ironwood</option>
                                             <option value=" Redwood ">Redwood</option>
+                                            <option value=" July Beech ">July Beech</option>
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -547,20 +552,20 @@
                                             class="Laminate-Sheets">
                                             <option value=" Please Select ">Laminate Sheets
                                             </option>
+                                            <optgroup label="Stone Finish">
+                                                <option value="Brown Coffee">Brown Coffee</option>
+                                                <option value="Venetian Gold">Venetian Gold</option>
+                                                <option value="Bianco Frost">Bianco Frost</option>
+                                                <option value="Almond Grey">Almond Grey</option>
+                                                <option value="Roman Grey">Roman Grey</option>
+                                                <option value="Copenhagen">Copenhagen</option>
+                                                <option value="Black Forest">Black Forest</option>
+                                                <option value="Titanium">Titanium</option>
+                                            </optgroup>
                                             <optgroup label="Metallic Finish">
                                                 <option value="Brushed Aluminium">Brushed Aluminium</option>
                                                 <option value="Rose Gold">Rose Gold</option>
                                             </optgroup>
-                                            <optgroup label="Stone Finish">
-                                                <option value="Almond Grey">Almond Grey</option>
-                                                <option value="Bianco Frost">Bianco Frost</option>
-                                                <option value="Black Forest">Black Forest</option>
-                                                <option value="Brown Coffee">Brown Coffee</option>
-                                                <option value="Copenhagen">Copenhagen</option>
-                                                <option value="Roman Grey">Roman Grey</option>
-                                                <option value="Titanium">Titanium</option>
-                                                <option value="Venetian Gold">Venetian Gold</option>
-                                            </optgroup>                                          
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>

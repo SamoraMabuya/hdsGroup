@@ -183,119 +183,119 @@ function hbs() {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Iceland+White.JPG";
-        } else if (hbs.selectedIndex == 'Cream') {
+        } else if (hbs.selectedIndex === " Cream ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Cream.jpg";
-        } else if (hbs.selectedIndex == 'Desert Sky') {
+        } else if (hbs.selectedIndex === " Dakota Oak ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Desert+Sky.jpg";
-        } else if (hbs.selectedIndex == 'Stone Grey') {
+        } else if (hbs.selectedIndex === " Desert Sky ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Stone+Grey.JPG";
-        } else if (hbs.selectedIndex == 'Black') {
+        } else if (hbs.selectedIndex === " Hickory Oak ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black.JPG";
-        } else if (hbs.selectedIndex == 'Charcoal Grey') {
+        } else if (hbs.selectedIndex === " Iceland White ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Charcoal+Grey.JPG";
-        } else if (hbs.selectedIndex == 'Red') {
+        } else if (hbs.selectedIndex === " Italian Marble ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Red.jpg";
-        } else if (hbs.selectedIndex == 'Larese') {
+        } else if (hbs.selectedIndex === " Larese ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Larese.JPG";
-        } else if (hbs.selectedIndex == 'Marula') {
+        } else if (hbs.selectedIndex === " Liberty Oak ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Marula.jpg";
-        } else if (hbs.selectedIndex == 'Lumber Ash') {
+        } else if (hbs.selectedIndex === " Lumber Ash ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lumber+Ash.JPG";
-        } else if (hbs.selectedIndex == 'Norwegian Birch') {
+        } else if (hbs.selectedIndex === " Marula ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Norwegian+Birch.JPG";
-        } else if (hbs.selectedIndex == 'Washed Oak') {
+        } else if (hbs.selectedIndex === " Metallic Cappuccino ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Washed+Oak.jpg";
-        } else if (hbs.selectedIndex == 'Dakota Oak') {
+        } else if (hbs.selectedIndex === " Norwegian Birch ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Dakota+Oak.JPG";
-        } else if (hbs.selectedIndex == 'Cherry Royale') {
+        } else if (hbs.selectedIndex === " Red ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/import/clib/hdsgroup_co_za/dms3rep/multi/HDS_Cherry-Royale-300x300-300x300.jpg";
-        } else if (hbs.selectedIndex == 'Walnut High Gloss') {
+        } else if (hbs.selectedIndex === " Stone Grey ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Walnut+High+Gloss.JPG";
-        } else if (hbs.selectedIndex == 'Liberty Oak') {
+        } else if (hbs.selectedIndex === " Walnut High Gloss ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Liberty%2BOak.JPG";
-        } else if (hbs.selectedIndex == 'Hickory Oak') {
+        } else if (hbs.selectedIndex === " Washed Oak ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Hickory+Oak.JPG";
-        } else if (hbs.selectedIndex == 'White Linen') {
+        } else if (hbs.selectedIndex === " White Linen ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Linen.JPG";
-        } else if (hbs.selectedIndex == 'Beige Linen') {
+        } else if (hbs.selectedIndex === " Anthracite Matte ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Beige+Linen.JPG";
-        } else if (hbs.selectedIndex == 'Metallic Cappuccino') {
+        } else if (hbs.selectedIndex === " Black Matte ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Metallic+Cappucino.JPG";
-        } else if (hbs.selectedIndex == 'Italian Marble') {
+        } else if (hbs.selectedIndex === " White Matte ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Italian+Marble.JPG";
-        } else if (hbs.selectedIndex == 'White Matte') {
+        } else if (hbs.selectedIndex === "Copper") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Matte.JPG";
-        } else if (hbs.selectedIndex == 'Anthracite Matte') {
+        } else if (hbs.selectedIndex === "Gold Acrylic") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Anthracite+Matte.JPG";
-        } else if (hbs.selectedIndex == 'Black Matte') {
+        } else if (hbs.selectedIndex === "Mirror Board") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Matte.JPG";
-        } else if (hbs.selectedIndex == 'Winery Rouge') {
+        } else if (hbs.selectedIndex === " Anthracite ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Winery+Rouge.JPG";
-        } else if (hbs.selectedIndex == 'Anthracite') {
+        } else if (hbs.selectedIndex === " Macchiato ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Anthracite.JPG";
-        } else if (hbs.selectedIndex == 'White Metallic') {
+        } else if (hbs.selectedIndex === " White ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Metallic.JPG";
-        } else if (hbs.selectedIndex == 'White') {
+        } else if (hbs.selectedIndex === " White Metallic ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White.JPG";
-        } else if (hbs.selectedIndex == 'Macchiato') {
+        } else if (hbs.selectedIndex === " Winery Rouge ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Macchiato.JPG";
-        } else if (hbs.selectedIndex == 'Titan') {
+        } else if (hbs.selectedIndex === " Titan ") {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Titan.JPG";

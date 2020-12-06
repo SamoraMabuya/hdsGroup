@@ -409,6 +409,7 @@
                                                 <option value=" Winery Rouge ">Winery Rouge</option>
                                                 <option value=" Titan ">Titan</option>
                                             </optgroup>
+
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -560,7 +561,8 @@
                                                 <option value="Roman Grey">Roman Grey</option>
                                                 <option value="Titanium">Titanium</option>
                                                 <option value="Venetian Gold">Venetian Gold</option>
-                                            </optgroup>                                          
+                                            </optgroup>
+                                          
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>

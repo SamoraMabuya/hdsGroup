@@ -409,6 +409,7 @@
                                                 <option value=" Winery Rouge ">Winery Rouge</option>
                                                 <option value=" Titan ">Titan</option>
                                             </optgroup>
+
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -547,20 +548,20 @@
                                             class="Laminate-Sheets">
                                             <option value=" Please Select ">Laminate Sheets
                                             </option>
+                                            <optgroup label="Stone Finish">
+                                                <option value="Brown Coffee">Brown Coffee</option>
+                                                <option value="Venetian Gold">Venetian Gold</option>
+                                                <option value="Bianco Frost">Bianco Frost</option>
+                                                <option value="Almond Grey">Almond Grey</option>
+                                                <option value="Roman Grey">Roman Grey</option>
+                                                <option value="Copenhagen">Copenhagen</option>
+                                                <option value="Black Forest">Black Forest</option>
+                                                <option value="Titanium">Titanium</option>
+                                            </optgroup>
                                             <optgroup label="Metallic Finish">
                                                 <option value="Brushed Aluminium">Brushed Aluminium</option>
                                                 <option value="Rose Gold">Rose Gold</option>
                                             </optgroup>
-                                            <optgroup label="Stone Finish">
-                                                <option value="Almond Grey">Almond Grey</option>
-                                                <option value="Bianco Frost">Bianco Frost</option>
-                                                <option value="Black Forest">Black Forest</option>
-                                                <option value="Brown Coffee">Brown Coffee</option>
-                                                <option value="Copenhagen">Copenhagen</option>
-                                                <option value="Roman Grey">Roman Grey</option>
-                                                <option value="Titanium">Titanium</option>
-                                                <option value="Venetian Gold">Venetian Gold</option>
-                                            </optgroup>                                          
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
