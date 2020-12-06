@@ -3,7 +3,8 @@ const select = document.querySelectorAll('select');
 const error = document.querySelectorAll('.error')
 
 
-
+validation();
+validationform();
 maxNum();
 foil();
 hbs();
@@ -12,8 +13,7 @@ VC();
 MRB();
 LaminateSheets();
 next();
-validation();
-validationform();
+sortlist();
 
 function validation() {
     document.querySelector('#sendbutton').addEventListener('click', function(e) {
