@@ -92,15 +92,38 @@ class FormController extends Controller {
 
         });
             
-        return '<div class="sentbox" style="transform: translate(0px, 200px); 
-        width: 500px;
+        echo `<center>
+        <div class="sentbox">
+            <h1>Message has been sent.
+                <br> We'll contact you soon.
+            </h1>
+        </div>
+
+    </center>
+
+    <style>
+        .sentbox {
+            transform: translate(0px, 200px);
+            width: 500px;
             height: 160px;
             border-radius: 10px;
             background: rgb(22, 20, 21);
             margin: 0 auto;
             justify-content: center;
-            text-align: center;">
-        </div>';
+            text-align: center;
+        }
+        
+        .sentbox h1 {
+            font-family: 'Lato', sans-serif;
+            color: rgb(255, 255, 255);
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            padding-top: 45px;
+            font-size: 26px;
+            line-height: 35px;
+        }
+    </style>`;
         
     }
 }
