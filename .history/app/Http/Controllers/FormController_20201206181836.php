@@ -92,7 +92,7 @@ class FormController extends Controller {
 
         });
             
-        return ' <center>
+        return '  <center>
         <div class="sentbox" style="transform: translate(0px, 200px); 
         width: 500px;
             height: 160px;
@@ -101,7 +101,7 @@ class FormController extends Controller {
             margin: 0 auto;
             justify-content: center;
             text-align: center;">
-            <h1 style="
+            <h1 style="font-family: 'Lato', sans-serif;
             color: rgb(255, 255, 255);
             margin: 0 auto;
             justify-content: center;
@@ -109,7 +109,7 @@ class FormController extends Controller {
             padding-top: 45px;
             font-size: 26px;
             line-height: 35px;">Message has been sent.
-                <br> We\'ll contact you soon.
+                <br> We'll contact you soon.
             </h1>
         </div>
     </center>';
