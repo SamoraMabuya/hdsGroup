@@ -4,9 +4,6 @@ const error = document.querySelectorAll('.error')
 
 
 validation();
-validationform();
-
-
 maxNum();
 foil();
 hbs();
@@ -32,17 +29,19 @@ function validation() {
 
 function validationform() {
     document.querySelector('#form').addEventListener('submit', function(e) {
-        nameValidate(e);
-        emailValidate(e);
-        numberValidate(e);
-        workNumber(e);
-        homeNumber(e);
-        checkBranch(e);
+            nameValidate(e);
+            emailValidate(e);
+            numberValidate(e);
+            workNumber(e);
+            homeNumber(e);
+            checkBranch(e);
+
+        }
+
+
+
 
     });
-}
-
-
 
 const form = document.queryselector('#form')
 

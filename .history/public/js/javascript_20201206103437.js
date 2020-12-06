@@ -4,9 +4,6 @@ const error = document.querySelectorAll('.error')
 
 
 validation();
-validationform();
-
-
 maxNum();
 foil();
 hbs();
