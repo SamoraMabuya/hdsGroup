@@ -11,11 +11,10 @@ VC();
 MRB();
 LaminateSheets();
 next();
-sendbutton();
-sendForm();
+sortlist();
 
 function sendbutton() {
-    document.querySelector('#sendbutton').addEventListener('click', function(e) {
+    document.querySelector('.sendbutton').addEventListener('click', function(e) {
         nameValidate(e);
         emailValidate(e);
         numberValidate(e);
@@ -27,7 +26,7 @@ function sendbutton() {
 }
 
 function sendForm() {
-    document.querySelector('#form').addEventListener('submit', function(e) {
+    document.querySelector('.form').addEventListener('submit', function(e) {
         nameValidate(e);
         emailValidate(e);
         numberValidate(e);
