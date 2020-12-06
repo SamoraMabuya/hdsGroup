@@ -1,5 +1,6 @@
 <?php
 
+URL::forceSchema('https');
 
 
 

@@ -1,8 +1,8 @@
 <?php
 
-
-
-
+if (APP::environment('production')) {
+    URL::forceScheme('https');
+}
 return [
 
     /*

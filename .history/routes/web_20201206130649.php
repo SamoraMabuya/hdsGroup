@@ -4,6 +4,7 @@ use App\Mail\WelcomeMail;
 
 use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +22,9 @@ Route::post('/', 'App\Http\Controllers\FormController@formSubmit')->name('form.s
 Route::get('users/export/', 'FormController@formSubmit');
 Route::view('/', 'form');
 
-
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
 
 
 // Route::get('/', function () {

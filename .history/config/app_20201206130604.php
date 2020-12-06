@@ -1,5 +1,7 @@
 <?php
 
+use  Illuminate\Support\Facades\URL;
+URL::forceSchema('https');
 
 
 
