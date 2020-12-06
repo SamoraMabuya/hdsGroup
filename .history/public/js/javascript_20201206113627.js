@@ -3,6 +3,16 @@ const select = document.querySelectorAll('select');
 const error = document.querySelectorAll('.error')
 
 
+maxNum();
+foil();
+hbs();
+melamine();
+VC();
+MRB();
+LaminateSheets();
+next();
+sortlist();
+
 document.querySelector('#sendbutton').addEventListener('click', function(e) {
     nameValidate(e);
     emailValidate(e);
@@ -25,18 +35,6 @@ document.querySelector('#form').addEventListener('submit', function(e) {
 
 
 });
-
-
-maxNum();
-foil();
-hbs();
-melamine();
-VC();
-MRB();
-LaminateSheets();
-next();
-sortlist();
-
 
 const form = document.queryselector('#form')
 
