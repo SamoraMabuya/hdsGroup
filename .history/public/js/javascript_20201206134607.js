@@ -15,6 +15,7 @@ LaminateSheets();
 next();
 nameValidate(e);
 
+sortlist();
 
 function validateButton() {
     document.querySelector('#sendbutton').addEventListener('click', function(e) {

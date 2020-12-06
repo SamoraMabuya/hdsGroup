@@ -1,4 +1,3 @@
-alert('connected');
 const select = document.querySelectorAll('select');
 
 const error = document.querySelectorAll('.error')
@@ -15,6 +14,7 @@ LaminateSheets();
 next();
 nameValidate(e);
 
+sortlist();
 
 function validateButton() {
     document.querySelector('#sendbutton').addEventListener('click', function(e) {

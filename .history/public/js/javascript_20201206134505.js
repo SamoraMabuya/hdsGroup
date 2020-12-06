@@ -1,10 +1,8 @@
-alert('connected');
 const select = document.querySelectorAll('select');
 
 const error = document.querySelectorAll('.error')
 
-validateButton();
-validateForm();
+
 maxNum();
 foil();
 hbs();
@@ -15,8 +13,9 @@ LaminateSheets();
 next();
 nameValidate(e);
 
+sortlist();
 
-function validateButton() {
+function validateForm() {
     document.querySelector('#sendbutton').addEventListener('click', function(e) {
         nameValidate(e);
         emailValidate(e);
@@ -29,20 +28,18 @@ function validateButton() {
 }
 
 
-function validateForm() {
-    document.querySelector('#form').addEventListener('submit', function(e) {
-        nameValidate(e);
-        emailValidate(e);
-        numberValidate(e);
-        workNumber(e);
-        homeNumber(e);
-        checkBranch(e);
+
+document.querySelector('#form').addEventListener('submit', function(e) {
+    nameValidate(e);
+    emailValidate(e);
+    numberValidate(e);
+    workNumber(e);
+    homeNumber(e);
+    checkBranch(e);
 
 
 
-    });
-}
-
+});
 
 const form = document.queryselector('#form')
 
