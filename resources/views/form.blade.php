@@ -619,7 +619,7 @@
                                         <tr id="RowOne">
                                             <td class="column1" id="column" name="index">1</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor1" id="select">
+                                                <select name="boardcolor1" id="select" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -786,7 +786,7 @@
                                         <tr>
                                             <td class="column1" id="column" name="index2">2</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor2">
+                                                <select name="boardcolor2" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -952,7 +952,7 @@
                                         <tr>
                                             <td class="column1" id="column" name="column3">3</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor3">
+                                                <select name="boardcolor3" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1121,7 +1121,7 @@
                                         <tr>
                                             <td class="column1" id="column" name="column4">4</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor4">
+                                                <select name="boardcolor4" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1290,7 +1290,7 @@
                                         <tr>
                                             <td class="column1" id="column" name="column5">5</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor5">
+                                                <select name="boardcolor5" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1460,7 +1460,7 @@
                                         <tr>
                                             <td class="column1" id="column">6</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor6">
+                                                <select name="boardcolor6" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1630,7 +1630,7 @@
                                         <tr>
                                             <td class="column1" id="column">7</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor7">
+                                                <select name="boardcolor7" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1800,7 +1800,7 @@
                                         <tr>
                                             <td class="column1" id="column">8</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor8">
+                                                <select name="boardcolor8" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -1970,7 +1970,7 @@
                                         <tr>
                                             <td class="column1" id="column">9</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor9">
+                                                <select name="boardcolor9" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2138,7 +2138,7 @@
                                         <tr>
                                             <td class="column1" id="column">10</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor10">
+                                                <select name="boardcolor10" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2306,7 +2306,7 @@
                                         <tr>
                                             <td class="column1" id="column">11</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor11">
+                                                <select name="boardcolor11" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2474,7 +2474,7 @@
                                         <tr>
                                             <td class="column1" id="column">12</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor12">
+                                                <select name="boardcolor12" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2642,7 +2642,7 @@
                                         <tr>
                                             <td class="column1" id="column">13</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor13">
+                                                <select name="boardcolor13" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2810,7 +2810,7 @@
                                         <tr>
                                             <td class="column1" id="column">14</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor14">
+                                                <select name="boardcolor14" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -2978,7 +2978,7 @@
                                         <tr>
                                             <td class="column1" id="column">15</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor15">
+                                                <select name="boardcolor15" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -3145,7 +3145,7 @@
                                         <tr>
                                             <td class="column1" id="column">16</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor16">
+                                                <select name="boardcolor16" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -3313,7 +3313,7 @@
                                         <tr>
                                             <td class="column1" id="column">17</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor17">
+                                                <select name="boardcolor17" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -3481,7 +3481,7 @@
                                         <tr>
                                             <td class="column1" id="column">18</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor18">
+                                                <select name="boardcolor18" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -3649,7 +3649,7 @@
                                         <tr>
                                             <td class="column1" id="column">19</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor19">
+                                                <select name="boardcolor19" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>
@@ -3817,7 +3817,7 @@
                                         <tr>
                                             <td class="column1" id="column">20</td>
                                             <td class="column2" id="column">
-                                                <select name="boardcolor20">
+                                                <select name="boardcolor20" class="boardcolors">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
                                                         <option value="Mirror Board">Mirror Board</option>

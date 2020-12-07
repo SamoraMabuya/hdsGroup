@@ -13,7 +13,7 @@ LaminateSheets();
 next();
 sendbutton();
 sendForm();
-sortSelect();
+sort1();
 
 function sendbutton() {
     document.querySelector('#sendbutton').addEventListener('click', function(e) {
@@ -658,15 +658,8 @@ function maxNum() {
 }
 
 
-function sortSelect(){
-    sort1();
-    sort2();
-    sort3();
-    sort4();
-    sort5();
-}
 function sort1() {
-    var thisOption = document.getElementsByName('boardcolor1');
+    var thisOption = document.querySelectorAll('boardcolors');
     var order = new Array();
 
     for (i = 2; i < thisOption.length; i++) {
@@ -687,87 +680,3 @@ function sort1() {
 }
 
 
-
-function sort2() {
-    var thisOption = document.getElementsByName('boardcolor2');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function sort3() {
-    var thisOption = document.getElementsByName('boardcolor3');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function sort4() {
-    var thisOption = document.getElementsByName('boardcolor4');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function sort5() {
-    var thisOption = document.getElementsByName('boardcolor5');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
