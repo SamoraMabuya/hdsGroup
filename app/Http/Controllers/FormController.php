@@ -86,7 +86,7 @@ class FormController extends Controller {
 
 
         function($mail) use($request) {  
-                $mail->from('sales@hdsgroup.co.za',$request->name);
+                $mail->from('HDSGroup',$request->name);
                 $mail->to(['samora@apptechnix.co.za'])->subject('HDS Form');
                 $mail->attach('form.csv');
 
