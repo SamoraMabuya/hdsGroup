@@ -4477,7 +4477,7 @@
                         </div>
 
                         <p>
-                            Please note that by subumitting this form, you confirm that all information provided by you
+                            Please note that by submitting this form, you confirm that all information provided by you
                             is correct.
 
                         </p>
