@@ -7,7 +7,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link href="{{ secure_asset('css/style.css')}}" rel="stylesheet" />
+    <link href="{{ secure_asset('css/style.css')}}" rel="stylesheet"/>
     <script src="{{ secure_asset('js/javascript.js')}}" defer></script>
 
 </head>
@@ -22,7 +22,7 @@
                         <span class="client" id="client">Client</span>
                     </div>
                     <form name="form" class="form" id="form" method="POST" action="{{route('form.submit')}}">
-                        @csrf
+                    @csrf
                         <div id="input-group" class="input-group">
                             <input id="input--style-1" class="input--style-1 name" placeholder="Company/Client Name"
                                 name="name">
@@ -367,7 +367,7 @@
                                         <select style="border: none; outline: 0px" name="high-gloss-boards" id="hbs">
                                             <option value=" Please Select ">High Gloss Boards
                                             </option>
-                                            <optgroup label=" Chrometree UB Boards ">
+                                                <optgroup label=" Chrometree UB Boards ">
                                                 <option value=" Beige Linen ">Beige Linen</option>
                                                 <option value=" Black ">Black</option>
                                                 <option value=" Charcoal Grey ">Charcoal Grey</option>
@@ -400,7 +400,7 @@
                                                 <option value="Copper">Copper</option>
                                                 <option value="Gold Acrylic">Gold Acrylic</option>
                                                 <option value="Mirror Board">Mirror Board</option>
-                                            </optgroup>
+                                            </optgroup>                                    
                                             <optgroup label=" PolyGloss ">
                                                 <option value=" Anthracite ">Anthracite</option>
                                                 <option value=" Macchiato ">Macchiato</option>
@@ -459,7 +459,7 @@
                                                 <option value=" Royal Mahogany ">Royal Mahogany</option>
                                                 <option value=" Savannah ">Savannah</option>
                                                 <option value=" Washed Oak ">Washed Oak</option>
-                                            </optgroup>
+                                            </optgroup>                            
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -560,7 +560,7 @@
                                                 <option value="Roman Grey">Roman Grey</option>
                                                 <option value="Titanium">Titanium</option>
                                                 <option value="Venetian Gold">Venetian Gold</option>
-                                            </optgroup>
+                                            </optgroup>                                          
                                         </select>
                                         <div class=" select-dropdown "></div>
                                     </div>
@@ -789,41 +789,47 @@
                                                 <select name="boardcolor2">
                                                     <option label="Select">Select</option>
                                                     <optgroup label="High Gloss Boards">
-                                                        <option value="Mirror Board">Mirror Board</option>
-                                                        <option value="Gold Acrylic">Gold Acrylic</option>
-                                                        <option value="Copper">Copper</option>
-                                                        <option value=" Iceland White ">Iceland White</option>
-                                                        <option value=" Cream ">Cream</option>
-                                                        <option value=" Desert Sky ">Desert Sky</option>
-                                                        <option value=" Stone Grey ">Stone Grey</option>
-                                                        <option value=" Black ">Black</option>
-                                                        <option value=" Charcoal Grey ">Charcoal Grey</option>
-                                                        <option value=" Red ">Red</option>
-                                                        <option value=" Larese ">Larese</option>
-                                                        <option value=" Marula ">Marula</option>
-                                                        <option value=" Lumber Ash ">Lumber Ash</option>
-                                                        <option value=" Norwegian Birch ">Norwegian Birch</option>
-                                                        <option value=" Washed Oak ">Washed Oak</option>
-                                                        <option value=" Dakota Oak ">Dakota Oak</option>
-                                                        <option value=" Cherry Royale ">Cherry Royale</option>
-                                                        <option value=" Walnut High Gloss ">Walnut High Gloss
-                                                        </option>
-                                                        <option value=" Liberty Oak ">Liberty Oak</option>
-                                                        <option value=" Hickory Oak ">Hickory Oak</option>
-                                                        <option value=" White Linen ">White Linen</option>
-                                                        <option value=" Beige Linen ">Beige Linen</option>
-                                                        <option value=" Metallic Cappuccino ">Metallic Cappuccino
-                                                        </option>
-                                                        <option value=" Italian Marble ">Italian Marble</option>
-                                                        <option value=" White Matte ">White Matte</option>
-                                                        <option value=" Anthracite Matte ">Anthracite Matte</option>
-                                                        <option value=" Black Matte ">Black Matte</option>
-                                                        <option value=" Winery Rouge ">Winery Rouge</option>
-                                                        <option value=" Anthracite ">Anthracite</option>
-                                                        <option value=" White Metallic ">White Metallic</option>
-                                                        <option value=" White ">White</option>
-                                                        <option value=" Macchiato ">Macchiato</option>
-                                                        <option value=" Titan ">Titan</option>
+                                                    <option value=" Beige Linen ">Beige Linen</option>
+                                                <option value=" Black ">Black</option>
+                                                <option value=" Charcoal Grey ">Charcoal Grey</option>
+                                                <option value=" Cherry Royale ">Cherry Royale</option>
+                                                <option value=" Cream ">Cream</option>
+                                                <option value=" Dakota Oak ">Dakota Oak</option>
+                                                <option value=" Desert Sky ">Desert Sky</option>
+                                                <option value=" Hickory Oak ">Hickory Oak</option>
+                                                <option value=" Iceland White ">Iceland White</option>
+                                                <option value=" Italian Marble ">Italian Marble</option>
+                                                <option value=" Larese ">Larese</option>
+                                                <option value=" Liberty Oak ">Liberty Oak</option>
+                                                <option value=" Lumber Ash ">Lumber Ash</option>
+                                                <option value=" Marula ">Marula</option>
+                                                <option value=" Metallic Cappuccino ">Metallic Cappuccino</option>
+                                                <option value=" Norwegian Birch ">Norwegian Birch</option>
+                                                <option value=" Red ">Red</option>
+                                                <option value=" Stone Grey ">Stone Grey</option>
+                                                <option value=" Walnut High Gloss ">Walnut High Gloss</option>
+                                                <option value=" Washed Oak ">Washed Oak</option>
+                                                <option value=" White Linen ">White Linen</option>
+                                            </optgroup>
+                                            <optgroup label=" Clean-Touc Anti-Fingerprint ">
+                                                <option value=" Anthracite Matte ">Anthracite Matte</option>
+                                                <option value=" Black Matte ">Black Matte</option>
+                                                <option value=" White Matte ">White Matte</option>
+
+                                            </optgroup>
+                                            <optgroup label=" Mirrorwood Acrylic Boards ">
+                                                <option value="Copper">Copper</option>
+                                                <option value="Gold Acrylic">Gold Acrylic</option>
+                                                <option value="Mirror Board">Mirror Board</option>
+                                            </optgroup>                                    
+                                            <optgroup label=" PolyGloss ">
+                                                <option value=" Anthracite ">Anthracite</option>
+                                                <option value=" Macchiato ">Macchiato</option>
+                                                <option value=" White ">White</option>
+                                                <option value=" White Metallic ">White Metallic</option>
+                                                <option value=" Winery Rouge ">Winery Rouge</option>
+                                                <option value=" Titan ">Titan</option>
+                                            </optgroup>
                                                     </optgroup>
 
                                                     <optgroup label="Melamine Boards">
@@ -900,6 +906,8 @@
                                                         <option value="Brushed Aluminium">Brushed Aluminium</option>
                                                         <option value="Rose Gold">Rose Gold</option>
                                                     </optgroup>
+
+
                                                 </select>
                                             </td>
                                             <td class="column3" id="column">
@@ -1066,6 +1074,7 @@
                                                         <option value="Brushed Aluminium">Brushed Aluminium</option>
                                                         <option value="Rose Gold">Rose Gold</option>
                                                     </optgroup>
+
 
 
                                                 </select>
@@ -1235,6 +1244,7 @@
                                                         <option value="Brushed Aluminium">Brushed Aluminium</option>
                                                         <option value="Rose Gold">Rose Gold</option>
                                                     </optgroup>
+
 
 
                                                 </select>
@@ -4484,15 +4494,14 @@
 
                         <button type="submit" id="sendbutton" class="sendbutton" value="submit">Send</button>
 
-
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-    </script>
-
+</script>
+    
 
 
 </body>

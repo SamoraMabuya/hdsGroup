@@ -230,6 +230,7 @@ function hbs() {
         } else if (hbs.selectedIndex === 16) {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
+                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Norwegian+Birch.JPG";
         } else if (hbs.selectedIndex === 17) {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
@@ -321,6 +322,8 @@ function melamine() {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Cream.jpg";
+
+            "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Nappa+Oak.jpg";
         } else if (melamine.selectedIndex === 4) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
@@ -329,6 +332,8 @@ function melamine() {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Iceland+White.JPG";
+
+            "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Savannah.JPG";
         } else if (melamine.selectedIndex === 6) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
@@ -346,6 +351,7 @@ function melamine() {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Linen.JPG";
+            "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Washed+Oak+-+Melamine.JPG";
         } else if (melamine.selectedIndex === 10) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
@@ -383,6 +389,8 @@ function melamine() {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Jackson+Hickory.JPG";
+
+            "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Royal-Mahogany.jpg";
         } else if (melamine.selectedIndex === 19) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
@@ -406,23 +414,18 @@ function melamine() {
         } else if (melamine.selectedIndex === 24) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Nappa+Oak.jpg";
         } else if (melamine.selectedIndex === 25) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Norwegian+Birch.JPG";
         } else if (melamine.selectedIndex === 26) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Royal-Mahogany.jpg";
         } else if (melamine.selectedIndex === 27) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Savannah.JPG";
         } else if (melamine.selectedIndex === 28) {
             document.querySelector('.mbPreview').style.visibility = "visible";
             document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Washed+Oak+-+Melamine.JPG";
         }
     })
 }
@@ -498,27 +501,32 @@ function foil() {
     var foil = document.querySelector('#foil');
     foil.addEventListener('change', function() {
         if (foil.selectedIndex === 0) {
+            console.log('working');
             document.querySelector('.foilPreview').style.visibility = "hidden";
         } else if (foil.selectedIndex === 1) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Italian+Walnut.JPG";
         } else if (foil.selectedIndex === 2) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black-Cherry.jpg";
-        } else if (foil.selectedIndex === 3) {
+            console.log('working');
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
                 "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Oak.JPG";
+        } else if (foil.selectedIndex === 3) {
+            console.log('working');
+            document.querySelector('.foilPreview').style.visibility = "visible";
+            document.querySelector('.foilPreview').src =
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black-Cherry.jpg";
         } else if (foil.selectedIndex === 4) {
+            console.log('working');
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
                 "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Cosmos+Pecan.JPG";
         } else if (foil.selectedIndex === 5) {
+            console.log('working');
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/July+Beech.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lake+City+Oak.JPG";
         } else if (foil.selectedIndex === 6) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
@@ -526,20 +534,19 @@ function foil() {
         } else if (foil.selectedIndex === 7) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lake+City+Oak.JPG";
+                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Maluti+Walnut.JPG";
         } else if (foil.selectedIndex === 8) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Maluti+Walnut.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Pecan+ironwood.JPG";
         } else if (foil.selectedIndex === 9) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Pecan+ironwood.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Redwood.JPG";
         } else if (foil.selectedIndex === 10) {
             document.querySelector('.foilPreview').style.visibility = "visible";
             document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Redwood.JPG";
-
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/July+Beech.JPG";
         }
     })
 }
@@ -572,44 +579,43 @@ function LaminateSheets() {
         } else if (LS.selectedIndex === 1) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Brushed+Aluminium.JPG";
+                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Brown+Coffee.JPG";
         } else if (LS.selectedIndex === 2) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Rose+Gold.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Venetian+Gold.JPG";
         } else if (LS.selectedIndex === 3) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Almond+Grey.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Bianco+Frost.JPG";
         } else if (LS.selectedIndex === 4) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Bianco+Frost.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Almond+Grey.JPG";
         } else if (LS.selectedIndex === 5) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Forest.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Roman+Grey.JPG";
         } else if (LS.selectedIndex === 6) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Brown+Coffee.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Copenhagen.JPG";
         } else if (LS.selectedIndex === 7) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Copenhagen.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Forest.JPG";
         } else if (LS.selectedIndex === 8) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Roman+Grey.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Titanium.JPG";
         } else if (LS.selectedIndex === 9) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Titanium.JPG";
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Brushed+Aluminium.JPG";
         } else if (LS.selectedIndex === 10) {
             document.querySelector('.LSPreview').style.visibility = "visible";
             document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Venetian+Gold.JPG";
-
+                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Rose+Gold.JPG";
         }
     })
 }

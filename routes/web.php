@@ -27,18 +27,6 @@ Route::view('/', 'form');
 
 
 
-// Route::get('/', function () {
-//     return view('form');
-// });
-// Route::post("form", [FormController::class, 'getData']);
-// Route::view("login", "form");
-
-// Route::get('/email', function () {
-//     Mail::to('samora.sm.sam@gmail.com')->send(new WelcomeMail());
-//     return new WelcomeMail();
-// });
-
-
 
 
      
