@@ -226,9 +226,11 @@ function hbs() {
         } else if (hbs.selectedIndex === 15) {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
+            "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Metallic+Cappucino.JPG";
         } else if (hbs.selectedIndex === 16) {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
+            "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Norwegian+Birch.JPG";
         } else if (hbs.selectedIndex === 17) {
             document.querySelector('.preview').style.visibility = "visible";
             document.querySelector('.preview').src =
