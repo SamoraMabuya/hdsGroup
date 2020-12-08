@@ -13,940 +13,6 @@
 </head>
 
 <body>
-    <style>
-        body {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-.font-robo {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-}
-
-.row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.row-space {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.col-2 {
-    width: -webkit-calc((100% - 60px) / 2);
-    width: -moz-calc((100% - 60px) / 2);
-    width: calc((100% - 60px) / 2);
-}
-
-@media (max-width: 867px) {
-    .col-2 {
-        width: 100%;
-    }
-}
-
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-}
-
-li>ol,
-li>ul {
-    margin-bottom: 0;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-fieldset {
-    min-width: 0;
-    /* [1] */
-    border: 0;
-}
-
-button {
-    outline: none;
-    background: none;
-    border: none;
-}
-
-#page-wrapper {
-    min-height: 100vh;
-}
-
-#body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 24px;
-}
-
-h4 {
-    font-size: 18px;
-}
-
-h5 {
-    font-size: 15px;
-}
-
-h6 {
-    font-size: 13px;
-}
-
-.bg-blue {
-    background: none;
-}
-
-.client-section {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-#client {
-    font-size: 18px;
-    color: rgb(65, 60, 60);
-    text-decoration: underline;
-    justify-content: center;
-    display: flex;
-}
-
-.board-section {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#Boards {
-    font-size: 18px;
-    color: rgb(65, 60, 60);
-    text-decoration: underline;
-    justify-content: center;
-    display: flex;
-}
-
-
-/* ==========================================================================
-#SPACING
-========================================================================== */
-
-#p-t-100 {
-    padding-top: 100px;
-}
-
-#p-b-100 {
-    padding-bottom: 100px;
-}
-
-
-/* ==========================================================================
-#WRAPPER
-========================================================================== */
-
-#grain11 {
-    width: 80px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 50px;
-    border: none;
-    outline: 0px;
-    display: flex;
-    background: transparent;
-    padding-left: 20px;
-}
-
-#wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
-#wrap-table100 {
-    width: 1000px;
-    height: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    margin: 0px 40px 0px -90px;
-}
-
-
-/* ==========================================================================
-#BUTTON
-========================================================================== */
-
-.btn {
-    line-height: 40px;
-    display: inline-block;
-    padding: 0 25px;
-    cursor: pointer;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    color: #fff;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.btn--radius {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-.btn--green {
-    background: #57b846;
-}
-
-.btn--green:hover {
-    background: #4dae3c;
-}
-
-=================================*/ td.active {
-    background-color: #2c6ed5;
-}
-
-input[type="date"i] {
-    padding: 14px;
-}
-
-.table-condensed td,
-.table-condensed th {
-    font-size: 14px;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-}
-
-#input {
-    outline: none;
-    margin: 0;
-    border: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    width: 100%;
-    font-size: 14px;
-    font-family: inherit;
-}
-
-.input-group {
-    position: relative;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #ccc;
-}
-
-.input--style-1 {
-    padding: 9px 0;
-    color: #666;
-    background: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-}
-
-.input--style-1::-webkit-input-placeholder {
-    color: #555;
-}
-
-.input--style-1:-moz-placeholder {
-    color: #555;
-    opacity: 1;
-}
-
-.input--style-1::-moz-placeholder {
-    color: #555;
-    opacity: 1;
-}
-
-.input--style-1:-ms-input-placeholder {
-    color: #555;
-}
-
-.input--style-1:-ms-input-placeholder {
-    color: #555;
-}
-
-.select--no-search .select2-search {
-    display: none !important;
-}
-
-.rs-select2 .select2-container {
-    width: 100% !important;
-    outline: none;
-}
-
-.rs-select2 .select2-container .select2-selection--single {
-    outline: none;
-    border: none;
-    /* height: 34px; */
-}
-
-.rs-select2 .select2-container .select2-selection--single .select2-selection__rendered {
-    /* line-height: 34px; */
-    padding-left: 0;
-    color: #555;
-    overflow: scroll;
-}
-
-.rs-select2 .select2-container .select2-selection--single .select2-selection__rendered::-webkit-scrollbar {
-    /* background: transparent; */
-}
-
-.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow {
-    /* height: 32px; */
-    /* right: 5px; */
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow b {
-    display: none;
-}
-
-.rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
-    font-family: "Material-Design-Iconic-Font";
-    content: '\f2f9';
-    font-size: 18px;
-    color: #ccc;
-    -webkit-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-
-.rs-select2 .select2-container .select2-container--open .select2-selection--single .select2-selection__arrow::after {
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-}
-
-.select2-container--open .select2-dropdown--below {
-    border: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    border: 1px solid #e0e0e0;
-    margin-top: 5px;
-    overflow: hidden;
-}
-
-.title {
-    margin-bottom: 37px;
-}
-
-.card {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    background: #fff;
-    width: 980px;
-}
-
-.card::-webkit-scrollbar {
-    width: 1em;
-}
-
-.card::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(145, 144, 144, 0.767);
-}
-
-.card::-webkit-scrollbar-thumb {
-    background-color: rgba(153, 139, 139, 0.555);
-    outline: 1px solid rgb(55, 113, 170);
-}
-
-.card-1 {
-    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-}
-
-.card-1 .card-heading {
-    padding-top: 210px;
-}
-
-.card-1 .card-body {
-    padding: 0 90px;
-    padding-top: 55px;
-    padding-bottom: 65px;
-}
-
-@media (max-width: 767px) {
-    .card-1 .card-body {
-        padding: 0 40px;
-        padding-top: 40px;
-        padding-bottom: 0px;
-    }
-}
-
-.wrap-input100 {
-    position: relative;
-    width: 500px;
-    z-index: 1;
-    margin-bottom: 40px;
-    margin-top: 25px;
-}
-
-#input100 {
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    line-height: 1.5;
-    color: black;
-    border-radius: 3px;
-    outline: 0.1px solid;
-    background: transparent;
-    min-height: 150px;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    padding: 10px;
-}
-
-.sendbutton {
-    width: 150px;
-    height: 70px;
-    float: left;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(66, 68, 66, 0.993);
-    margin: 20px 0px 30px 0px;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.error {
-    color: red;
-    transform: translateY(-20px);
-    visibility: hidden;
-}
-
-.show {
-    visibility: visible;
-}
-
-.hide {
-    visibility: hidden;
-}
-
-#preview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#foilPreview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#mbPreview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#MRBPreview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#VCPreview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#LSPreview {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    transform: translate(290px, -10px);
-    position: absolute;
-    z-index: 1;
-}
-
-#measurements {
-    font-size: 12px;
-}
-
-#masonite-title {
-    margin-top: 30px;
-}
-
-.messageh1 {
-    margin: 25px 0px 10px 0px;
-    padding: 0px 0px 0px 5px;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
-#Laminate-Sheets {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#MRB {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#foil {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#VC {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#melamine {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#hbs {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-    background-color: transparent;
-}
-
-#branch {
-    width: 100%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    background-color: transparent;
-    /* transform: translate(-10px, 10px); */
-}
-
-#Edge-Type {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-}
-
-#board-type {
-    width: 70%;
-    text-overflow: ellipsis;
-    size: 10;
-    max-height: 30%;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    /* transform: translate(-10px, 10px); */
-}
-
-@font-face {
-    font-family: OpenSans-Regular;
-    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
-}
-
-p {
-    margin: 0px;
-}
-
-ul,
-li {
-    margin: 0px;
-    list-style-type: none;
-}
-
-
-/* ------------------------------------ */
-
-input {
-    display: block;
-    outline: none;
-    border: none !important;
-}
-
-textarea {
-    display: block;
-    outline: none;
-}
-
-.enter-board {
-    width: 100%;
-    height: 100%;
-}
-
-textarea:focus,
-input:focus {
-    border-color: transparent !important;
-}
-
-button {
-    outline: none !important;
-    border: none;
-    background: transparent;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-iframe {
-    border: none !important;
-}
-
-.limiter {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container-table100 {
-    width: 100%;
-    min-height: 100vh;
-    background: #c850c0;
-    background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
-    background: -o-linear-gradient(45deg, #4158d0, #c850c0);
-    background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
-    background: linear-gradient(45deg, #4158d0, #c850c0);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 33px 30px;
-}
-
-#table2 {
-    margin: 50px 0px 0px 0px;
-    width: 440px;
-    height: 250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    justify-content: center;
-}
-
-table {
-    border-spacing: 1;
-    border-collapse: collapse;
-    background: white;
-    overflow: hidden;
-    width: 40%;
-    margin: 0 auto;
-    margin: 0 auto;
-}
-
-table * {
-    position: relative;
-}
-
-table thead tr {
-    height: 40px;
-    background: #000;
-}
-
-table tbody tr:last-child {
-    border: 0;
-}
-
-table td.c,
-table th.c {
-    text-align: center;
-}
-
-table td.r,
-table th.r {
-    text-align: center;
-}
-
-.table100-head th {
-    font-size: 14px;
-    color: #fff;
-    line-height: 1.2;
-    font-weight: unset;
-    text-align: center;
-    padding: 5px;
-    font-family: 'Roboto', sans-serif;
-}
-
-tbody tr:nth-child(even) {
-    background-color: white;
-}
-
-#column {
-    border: 1px solid black;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
-    background: none;
-    font-size: 12px;
-}
-
-.column1 {
-    width: 30px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column2 {
-    padding-left: 5px;
-    padding-right: 15px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column3 {
-    width: 100px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column4 {
-    width: 145px;
-    text-align: center;
-}
-
-.column5 {
-    width: 70px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column6 {
-    width: 222px;
-    text-align: center;
-}
-
-.column7 {
-    width: 270px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column8 {
-    width: 190px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column9 {
-    width: 170px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.column10 {
-    width: 170px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-#column select {
-    width: 90px;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 50px;
-    border: none;
-    outline: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    background: transparent;
-}
-
-#column .value0 {
-    /*max-width: 20%;*/
-    display: flex;
-}
-
-#input {
-    height: 50px;
-    width: 100px;
-    text-align: center;
-}
-
-.row select {
-    border: none;
-    outline: 0px;
-}
-
-.example-row {
-    height: 50px;
-    width: 100px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.table100-head #column {
-    border: 1px solid #fff;
-}
-
-.available {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(65, 60, 60);
-    margin: 0px 0px 30px 0px;
-}
-
-.row-example {
-    margin: 20px 0px 20px 10px;
-}
-
-select option {
-    size: 10;
-    max-height: 30%;
-}
-
-@media (max-width: 576px) {
-    .container-table100 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-    </style>
     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo" id="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680" id="wrapper">
             <div class="card card-1" id="card card-1">
@@ -1696,7 +762,7 @@ select option {
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth1" class="value0">
-                                                    <option value="0">0</option>
+                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -1857,14 +923,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength2" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth2" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2027,14 +1091,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength3" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth3" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2198,14 +1260,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength4" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth4" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2370,14 +1430,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength5" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth5" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2542,14 +1600,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength6" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth6" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2714,14 +1770,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength7" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth7" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -2886,14 +1940,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength8" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth8" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3056,14 +2108,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength9" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth9" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3226,14 +2276,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength10" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth10" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3396,14 +2444,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength11" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth11" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3566,14 +2612,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength12" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth12" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3736,14 +2780,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength13" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth13" class="value0">
-                                                 <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -3906,7 +2948,6 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength14" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4075,14 +3116,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength15" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth15" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4244,7 +3283,6 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength16" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4413,7 +3451,6 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength17" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4582,14 +3619,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength18" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth18" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4752,14 +3787,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength19" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth19" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4922,14 +3955,12 @@ select option {
                                             </td>
                                             <td class="column6" id="column">
                                                 <select name="edgelength20" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
                                             </td>
                                             <td class="column7" id="column">
                                                 <select name="edgewidth20" class="value0">
-                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                 </select>
@@ -4999,7 +4030,7 @@ select option {
                                             <td class="column1" id="column" name="column1">1</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour21" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour21" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5021,7 +4052,7 @@ select option {
                                             <td class="column1" id="column" name="column1">2</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour22" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour22" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5043,7 +4074,7 @@ select option {
                                             <td class="column1" id="column" name="column1">3</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour23" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour23" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5065,7 +4096,7 @@ select option {
                                             <td class="column1" id="column" name="column1">4</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour24" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour24" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5087,7 +4118,7 @@ select option {
                                             <td class="column1" id="column" name="column1">5</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour25" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour25" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5109,7 +4140,7 @@ select option {
                                             <td class="column1" id="column" name="column1">6</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour26" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour26" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5130,7 +4161,7 @@ select option {
                                             <td class="column1" id="column" name="column1">7</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour27" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour27" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5153,7 +4184,7 @@ select option {
                                             <td class="column1" id="column" name="column1">8</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour28" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour28" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5175,7 +4206,7 @@ select option {
                                             <td class="column1" id="column" name="column1">9</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour29" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour29" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5197,7 +4228,7 @@ select option {
                                             <td class="column1" id="column" name="column1">10</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour30" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour30" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5219,7 +4250,7 @@ select option {
                                             <td class="column1" id="column" name="column1">11</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour31" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour31" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5240,7 +4271,7 @@ select option {
                                             <td class="column1" id="column" name="column1">12</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour32" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour32" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5262,7 +4293,7 @@ select option {
                                             <td class="column1" id="column" name="column1">13</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour33" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour33" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5284,7 +4315,7 @@ select option {
                                             <td class="column1" id="column" name="column1">14</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour34" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour34" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5306,7 +4337,7 @@ select option {
                                             <td class="column1" id="column" name="column1">15</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour35" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour35" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5328,7 +4359,7 @@ select option {
                                             <td class="column1" id="column" name="column1">16</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour36" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour36" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5350,7 +4381,7 @@ select option {
                                             <td class="column1" id="column" name="column1">17</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour37" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour37" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5372,7 +4403,7 @@ select option {
                                             <td class="column1" id="column" name="column1">18</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour38" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour38" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5394,7 +4425,7 @@ select option {
                                             <td class="column1" id="column" name="column1">19</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour39" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour39" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5416,7 +4447,7 @@ select option {
                                             <td class="column1" id="column" name="column1">20</td>
 
                                             <td class="column11" id="column" style="background-color: white;">
-                                                <select name="masonite-colour40" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour40" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5462,1302 +4493,8 @@ select option {
         </div>
     </div>
 
-    <script>
-const select = document.querySelectorAll('select');
-
-const error = document.querySelectorAll('.error')
-
-
-maxNum();
-foil();
-hbs();
-melamine();
-VC();
-MRB();
-LaminateSheets();
-next();
-sendbutton();
-sendForm();
-sort1();
-changeRowSelection();
-
-function sendbutton() {
-    document.querySelector('#sendbutton').addEventListener('click', function(e) {
-        nameValidate(e);
-        emailValidate(e);
-        numberValidate(e);
-        workNumber(e);
-        homeNumber(e);
-        checkBranch(e);
-
-    });
-}
-
-function sendForm() {
-    document.querySelector('#form').addEventListener('submit', function(e) {
-        nameValidate(e);
-        emailValidate(e);
-        numberValidate(e);
-        workNumber(e);
-        homeNumber(e);
-        checkBranch(e);
-    });
-}
-
-
-
-
-function nameValidate(e) {
-    const name = document.querySelector('.name');
-    if (name.value.length == 0) {
-        error[0].classList.add('show');
-        error[0].classList.remove('hide');
-        error[0].textContent = "Field is empty";
-        console.log('go');
-        e.preventDefault();
-    } else {
-        error[0].classList.add('hide');
-        error[0].classList.remove('show');
-        console.log('do');
-
-
-
-    }
-}
-
-function emailValidate(e) {
-    let emailReg =
-        /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-    const email = document.querySelector('.email');
-
-    if (email.value.length == 0) {
-        error[1].classList.add('show');
-        error[1].classList.remove('hide');
-        error[1].textContent = "Field is empty";
-        e.preventDefault();
-    } else if (!email.value.match(emailReg)) {
-        error[1].classList.add('show');
-        error[1].classList.remove('hide');
-        error[1].textContent = "Email is not valid";
-        e.preventDefault();
-    } else if (email.value.match(emailReg)) {
-        error[1].classList.add('hide');
-        error[1].classList.remove('show');
-
-
-    }
-}
-
-function numberValidate(e) {
-    var phone = /^[0-9]{10}$/;
-    const cellphone = document.querySelector('.cellphone');
-
-
-    if (cellphone.value.match(phone)) {
-        error[2].classList.add('hide');
-        error[2].classList.remove('show');
-        return true;
-    } else if (cellphone.value.length == 0) {
-        error[2].classList.add('show');
-        error[2].classList.remove('hide');
-        error[2].textContent = 'Field is empty';
-        e.preventDefault();
-    } else if (!cellphone.value.match(phone)) {
-        error[2].classList.add('show');
-        error[2].classList.remove('hide');
-        error[2].textContent = 'Enter a 10 digit number. No spaces or special characters allowed.';
-        e.preventDefault();
-
-
-    }
-
-}
-
-
-function workNumber(e) {
-    var phone = /^[0-9]{10}$/;
-    const worknumber = document.querySelector('.work-number');
-
-    if (worknumber.value.match(phone)) {
-        error[3].classList.add('hide');
-        error[3].classList.remove('show');
-        return true;
-    } else if (worknumber.value == 0) {
-        error[3].classList.remove('show');
-        error[3].classList.add('hide');
-    } else if (!worknumber.value.match(phone)) {
-        error[3].classList.add('show');
-        error[3].classList.remove('hide');
-        error[3].textContent = 'Enter a 10 digit number. No spaces or special characters allowed.';
-        e.preventDefault();
-
-    }
-}
-
-function homeNumber(e) {
-    var phone = /^[0-9]{10}$/;
-    const homenumber = document.querySelector('.home-number');
-
-    if (homenumber.value.match(phone)) {
-        error[4].classList.add('hide');
-        error[4].classList.remove('show');
-        return true;
-    } else if (homenumber.value == 0) {
-        error[4].classList.remove('show');
-        error[4].classList.add('hide');
-    } else if (!homenumber.value.match(phone)) {
-        error[4].classList.add('show');
-        error[4].classList.remove('hide');
-        error[4].textContent = 'Enter a 10 digit number. No spaces or special characters allowed.';
-        e.preventDefault();
-
-    }
-}
-
-function checkBranch(e) {
-    var branch = document.querySelector('#branch');
-    if (branch.selectedIndex <= 0) {
-        error[5].classList.add('show');
-        error[5].classList.remove('hide');
-        error[5].textContent = 'Please select a branch';
-        e.preventDefault();
-    } else {
-        error[5].classList.add('hide');
-        error[5].classList.remove('show');
-
-    }
-}
-
-function hbs() {
-    var hbs = document.querySelector('#hbs');
-    hbs.addEventListener('change', function() {
-        if (hbs.selectedIndex === 0) {
-            document.querySelector('.preview').style.visibility = "hidden";
-        } else if (hbs.selectedIndex === 1) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Beige+Linen.JPG";
-        } else if (hbs.selectedIndex === 2) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black.JPG";
-        } else if (hbs.selectedIndex === 3) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Charcoal+Grey.JPG";
-        } else if (hbs.selectedIndex === 4) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/import/clib/hdsgroup_co_za/dms3rep/multi/HDS_Cherry-Royale-300x300-300x300.jpg";
-        } else if (hbs.selectedIndex === 5) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Cream.jpg";
-        } else if (hbs.selectedIndex === 6) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Dakota+Oak.JPG";
-        } else if (hbs.selectedIndex === 7) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Desert+Sky.jpg";
-        } else if (hbs.selectedIndex === 8) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Hickory+Oak.JPG";
-        } else if (hbs.selectedIndex === 9) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Iceland+White.JPG";
-        } else if (hbs.selectedIndex === 10) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Italian+Marble.JPG";
-        } else if (hbs.selectedIndex === 11) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Larese.JPG";
-        } else if (hbs.selectedIndex === 12) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Liberty%2BOak.JPG";
-
-        } else if (hbs.selectedIndex === 13) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lumber+Ash.JPG";
-        } else if (hbs.selectedIndex === 14) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Marula.jpg";
-        } else if (hbs.selectedIndex === 15) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-            "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Metallic+Cappucino.JPG";
-        } else if (hbs.selectedIndex === 16) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-            "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Norwegian+Birch.JPG";
-        } else if (hbs.selectedIndex === 17) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Red.jpg";
-        } else if (hbs.selectedIndex === 18) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Stone+Grey.JPG";
-        } else if (hbs.selectedIndex === 19) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Walnut+High+Gloss.JPG";
-        } else if (hbs.selectedIndex === 20) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Washed+Oak.jpg";
-        } else if (hbs.selectedIndex === 21) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Linen.JPG";
-        } else if (hbs.selectedIndex === 22) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Anthracite+Matte.JPG";
-        } else if (hbs.selectedIndex === 23) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Matte.JPG";
-        } else if (hbs.selectedIndex === 24) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Matte.JPG";
-        } else if (hbs.selectedIndex === 25) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Copper.JPG"
-        } else if (hbs.selectedIndex === 26) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/gold-acryl.jpg";
-        } else if (hbs.selectedIndex === 27) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Mirror-Board.jpg";
-        } else if (hbs.selectedIndex === 28) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Anthracite.JPG";
-        } else if (hbs.selectedIndex === 29) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/dms3rep/multi/Macchiato.jpg";
-        } else if (hbs.selectedIndex === 30) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White.JPG";
-        } else if (hbs.selectedIndex === 31) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Metallic.JPG";
-        } else if (hbs.selectedIndex === 32) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Winery+Rouge.JPG";
-        } else if (hbs.selectedIndex === 33) {
-            document.querySelector('.preview').style.visibility = "visible";
-            document.querySelector('.preview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Titan.JPG";
-        }
-    });
-}
-
-
-function melamine() {
-    // // Melamine-Boards
-    var melamine = document.querySelector('.melamine');
-    melamine.addEventListener('change', function() {
-        if (melamine.selectedIndex === 0) {
-            document.querySelector('.mbPreview').style.visibility = "hidden";
-        } else if (melamine.selectedIndex === 1) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black.JPG";
-        } else if (melamine.selectedIndex === 2) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Charcoal+Grey.JPG";
-        } else if (melamine.selectedIndex === 3) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Cream.jpg";
-        } else if (melamine.selectedIndex === 4) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Desert+Sky.jpg";
-        } else if (melamine.selectedIndex === 5) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Iceland+White.JPG";
-        } else if (melamine.selectedIndex === 6) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/f2aba0bd/import/clib/hdsgroup_co_za/dms3rep/multi/HDS_Stone_Grey_UltraMatt-700x700.jpg";
-            "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Norwegian+Birch.JPG";
-        } else if (melamine.selectedIndex === 7) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Beige+Linen.JPG";
-        } else if (melamine.selectedIndex === 8) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Natural+Stone.JPG";
-        } else if (melamine.selectedIndex === 9) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Linen.JPG";
-        } else if (melamine.selectedIndex === 10) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Alaskan+Cherry.JPG";
-        } else if (melamine.selectedIndex === 11) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Balsa.jpg";
-        } else if (melamine.selectedIndex === 12) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Carolina+Cedar.JPG";
-        } else if (melamine.selectedIndex === 13) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Cherry+Royale+-+melanine.JPG";
-        } else if (melamine.selectedIndex === 14) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Dakota+Oak.JPG";
-        } else if (melamine.selectedIndex === 15) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Espirito.JPG";
-        } else if (melamine.selectedIndex === 16) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Hickory+Oak.JPG";
-
-        } else if (melamine.selectedIndex === 17) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Glaston+Berry.JPG";
-        } else if (melamine.selectedIndex === 18) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Jackson+Hickory.JPG";
-        } else if (melamine.selectedIndex === 19) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Lancaster+Oak.JPG";
-        } else if (melamine.selectedIndex === 20) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Larese+-+Melanine.JPG";
-        } else if (melamine.selectedIndex === 21) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Liberty+Oak-3036d7ee.JPG";
-        } else if (melamine.selectedIndex === 22) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lumber+Ash+-+Melamine.JPG";
-        } else if (melamine.selectedIndex === 23) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Marula.jpg";
-        } else if (melamine.selectedIndex === 24) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Nappa+Oak.jpg";
-        } else if (melamine.selectedIndex === 25) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Norwegian+Birch.JPG";
-        } else if (melamine.selectedIndex === 26) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Royal-Mahogany.jpg";
-        } else if (melamine.selectedIndex === 27) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Savannah.JPG";
-        } else if (melamine.selectedIndex === 28) {
-            document.querySelector('.mbPreview').style.visibility = "visible";
-            document.querySelector('.mbPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Washed+Oak+-+Melamine.JPG";
-        }
-    })
-}
-
-
-// Veneered-Chipboard
-
-function VC() {
-    var VC = document.querySelector('#VC');
-    VC.addEventListener('change', function() {
-        if (VC.selectedIndex === 0) {
-            document.querySelector('.VCPreview').style.visibility = "hidden";
-        } else if (VC.selectedIndex === 1) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/american_walnut__1.jpg";
-        } else if (VC.selectedIndex === 2) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/import/clib/hdsgroup_co_za/dms3rep/multi/Cherry-Royal-700x700.jpg";
-        } else if (VC.selectedIndex === 3) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Crown+Mahogany.JPG";
-        } else if (VC.selectedIndex === 4) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Kiaat.JPG";
-        } else if (VC.selectedIndex === 5) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Maple.JPG";
-        } else if (VC.selectedIndex === 6) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Okoume.JPG";
-        } else if (VC.selectedIndex === 7) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Pine.JPG";
-        } else if (VC.selectedIndex === 8) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Pink+beech.JPG";
-        } else if (VC.selectedIndex === 9) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Red+Oak.JPG";
-        } else if (VC.selectedIndex === 10) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Rosewood.JPG";
-        } else if (VC.selectedIndex === 11) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Sapele.JPG";
-        } else if (VC.selectedIndex === 12) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Beech.JPG";
-        } else if (VC.selectedIndex === 13) {
-            document.querySelector('.VCPreview').style.visibility = "visible";
-            document.querySelector('.VCPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/White+Oak.JPG";
-        }
-    })
-
-}
-
-// Foil Boards
-
-function foil() {
-    var foil = document.querySelector('#foil');
-    foil.addEventListener('change', function() {
-        if (foil.selectedIndex === 0) {
-            document.querySelector('.foilPreview').style.visibility = "hidden";
-        } else if (foil.selectedIndex === 1) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Italian+Walnut.JPG";
-        } else if (foil.selectedIndex === 2) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black-Cherry.jpg";
-        } else if (foil.selectedIndex === 3) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Oak.JPG";
-        } else if (foil.selectedIndex === 4) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Cosmos+Pecan.JPG";
-        } else if (foil.selectedIndex === 5) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/July+Beech.JPG";
-        } else if (foil.selectedIndex === 6) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Kiaat+-+Foil+Boards.JPG";
-        } else if (foil.selectedIndex === 7) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Lake+City+Oak.JPG";
-        } else if (foil.selectedIndex === 8) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Maluti+Walnut.JPG";
-        } else if (foil.selectedIndex === 9) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Pecan+ironwood.JPG";
-        } else if (foil.selectedIndex === 10) {
-            document.querySelector('.foilPreview').style.visibility = "visible";
-            document.querySelector('.foilPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Redwood.JPG";
-
-        }
-    })
-}
-
-
-
-function MRB() {
-    // Moisture-Resitant-Boards
-    var MRB = document.querySelector('#MRB');
-    MRB.addEventListener('change', function() {
-        if (MRB.selectedIndex === 0) {
-            document.querySelector('.MRBPreview').style.visibility = "hidden";
-        } else if (MRB.selectedIndex === 1) {
-            document.querySelector('.MRBPreview').style.visibility = "visible";
-            document.querySelector('.MRBPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/HMR.JPG";
-        } else if (MRB.selectedIndex === 2) {
-            document.querySelector('.MRBPreview').style.visibility = "visible";
-            document.querySelector('.MRBPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/HMR+-+MDF.JPG";
-        }
-    })
-}
-
-function LaminateSheets() {
-    var LS = document.querySelector('#Laminate-Sheets');
-    LS.addEventListener('change', function() {
-        if (LS.selectedIndex === 0) {
-            document.querySelector('.LSPreview').style.visibility = "hidden";
-        } else if (LS.selectedIndex === 1) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Brushed+Aluminium.JPG";
-        } else if (LS.selectedIndex === 2) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Rose+Gold.JPG";
-        } else if (LS.selectedIndex === 3) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Almond+Grey.JPG";
-        } else if (LS.selectedIndex === 4) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Bianco+Frost.JPG";
-        } else if (LS.selectedIndex === 5) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Black+Forest.JPG";
-        } else if (LS.selectedIndex === 6) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/2b1bcac4/dms3rep/multi/Brown+Coffee.JPG";
-        } else if (LS.selectedIndex === 7) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Copenhagen.JPG";
-        } else if (LS.selectedIndex === 8) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Roman+Grey.JPG";
-        } else if (LS.selectedIndex === 9) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Titanium.JPG";
-        } else if (LS.selectedIndex === 10) {
-            document.querySelector('.LSPreview').style.visibility = "visible";
-            document.querySelector('.LSPreview').src =
-                "https://irp-cdn.multiscreensite.com/3fe38a6c/dms3rep/multi/Venetian+Gold.JPG";
-
-        }
-    })
-}
-
-
-function next() {
-    const input = document.querySelectorAll('#input');
-    for (var i = 0; i < input.length; i++) {
-        input[i].addEventListener("keypress", function(e) {
-            if (e.which == 13) {
-                e.preventDefault();
-                var next = document.querySelectorAll('[tabIndex="' + (this.tabIndex + 1) + '"]');
-                if (next.length === 0) {
-                    next = document.querySelectorAll('[tabIndex="1"]');
-                }
-                next[0].focus();
-            }
-        })
-    }
-}
-
-
-function maxNum() {
-    const valueLength = document.querySelectorAll('.inputLength');
-    const valueWidth = document.querySelectorAll('.inputWidth');
-
-    for (var i = 0; i < valueLength.length; i++) {
-        valueLength[i].addEventListener('input', function(e) {
-            if (this.value > 2750) {
-                alert('Length cannot be more than 2750');
-                this.value = 2750;
-            }
-        })
-    }
-    for (var i = 0; i < valueWidth.length; i++) {
-        valueWidth[i].addEventListener('input', function(e) {
-            if (this.value > 1830) {
-                alert('Width cannot be more than 1830');
-                this.value = 1830;
-            }
-        })
-
-    }
-}
-
-
-function sort1() {
-    var thisOption = document.querySelectorAll('boardcolors');
-    var order = new Array();
-
-    for (i = 2; i < thisOption.length; i++) {
-        order[i - 2] =
-            thisOption.options[i].text.toUpperCase() + "," +
-            thisOption.options[i].text + "," +
-            thisOption.options[i].value;
-    }
-
-    order.sort();
-
-    for (i = 2; i < thisOption.length; i++) {
-        var parts = order[i - 2].split(',');
-
-        thisOption.options[i].text = parts[1];
-        thisOption.options[i].value = parts[2];
-    }
-}
-
-function changeRowSelection () {
-    const selectoptions = document.querySelectorAll('#masonite-select');
-    selectoptions[1].addEventListener('change', function() {
-        if(selectoptions[1].selectedIndex === 1) {
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[0].selectedIndex = 0;
-        }
-    selectoptions[2].addEventListener('change', function() {
-        if(selectoptions[2].selectedIndex === 1) {
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-        }
-        selectoptions[3].addEventListener('change', function() {
-        if(selectoptions[3].selectedIndex === 1) {
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[4].addEventListener('change', function() {
-        if(selectoptions[4].selectedIndex === 1) {
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[5].addEventListener('change', function() {
-        if(selectoptions[5].selectedIndex === 1) {
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[6].addEventListener('change', function() {
-        if(selectoptions[6].selectedIndex === 1) {
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[7].addEventListener('change', function() {
-        if(selectoptions[7].selectedIndex === 1) {
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[8].addEventListener('change', function() {
-        if(selectoptions[8].selectedIndex === 1) {
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[9].addEventListener('change', function() {
-        if(selectoptions[9].selectedIndex === 1) {
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[10].addEventListener('change', function() {
-        if(selectoptions[10].selectedIndex === 1) {
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[11].addEventListener('change', function() {
-        if(selectoptions[11].selectedIndex === 1) {
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[12].addEventListener('change', function() {
-        if(selectoptions[12].selectedIndex === 1) {
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[13].addEventListener('change', function() {
-        if(selectoptions[13].selectedIndex === 1) {
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[14].addEventListener('change', function() {
-        if(selectoptions[14].selectedIndex === 1) {
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[15].addEventListener('change', function() {
-        if(selectoptions[15].selectedIndex === 1) {
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[16].addEventListener('change', function() {
-        if(selectoptions[16].selectedIndex === 1) {
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[17].addEventListener('change', function() {
-        if(selectoptions[17].selectedIndex === 1) {
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[18].addEventListener('change', function() {
-        if(selectoptions[18].selectedIndex === 1) {
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[19].addEventListener('change', function() {
-        if(selectoptions[19].selectedIndex === 1) {
-            selectoptions[18].selectedIndex = 1;
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[18].selectedIndex = 0;
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[20].addEventListener('change', function() {
-        if(selectoptions[20].selectedIndex === 1) {
-            selectoptions[19].selectedIndex = 1;
-            selectoptions[18].selectedIndex = 1;
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[19].selectedIndex = 0;
-            selectoptions[18].selectedIndex = 0;
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-                                                                                })
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                })
-                                                            })
-                                                        })
-                                                    })
-                                                })
-                                            })
-                                        })
-                                    })
-                                })
-                            })
-                        })
-                    })
-                })
-            })
-        })
-    })
-}
-            
-            
-            
-
-
     </script>
+
 
 
 </body>

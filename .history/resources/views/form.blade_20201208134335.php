@@ -5153,7 +5153,7 @@ select option {
                                             <td class="column1" id="column" name="column1">8</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour28" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour28" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5175,7 +5175,7 @@ select option {
                                             <td class="column1" id="column" name="column1">9</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour29" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour29" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5197,7 +5197,7 @@ select option {
                                             <td class="column1" id="column" name="column1">10</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour30" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour30" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5219,7 +5219,7 @@ select option {
                                             <td class="column1" id="column" name="column1">11</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour31" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour31" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5240,7 +5240,7 @@ select option {
                                             <td class="column1" id="column" name="column1">12</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour32" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour32" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5262,7 +5262,7 @@ select option {
                                             <td class="column1" id="column" name="column1">13</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour33" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour33" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5284,7 +5284,7 @@ select option {
                                             <td class="column1" id="column" name="column1">14</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour34" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour34" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5306,7 +5306,7 @@ select option {
                                             <td class="column1" id="column" name="column1">15</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour35" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour35" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5328,7 +5328,7 @@ select option {
                                             <td class="column1" id="column" name="column1">16</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour36" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour36" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5350,7 +5350,7 @@ select option {
                                             <td class="column1" id="column" name="column1">17</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour37" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour37" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5372,7 +5372,7 @@ select option {
                                             <td class="column1" id="column" name="column1">18</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour38" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour38" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5394,7 +5394,7 @@ select option {
                                             <td class="column1" id="column" name="column1">19</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour39" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour39" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5416,7 +5416,7 @@ select option {
                                             <td class="column1" id="column" name="column1">20</td>
 
                                             <td class="column11" id="column" style="background-color: white;">
-                                                <select name="masonite-colour40" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour40" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>

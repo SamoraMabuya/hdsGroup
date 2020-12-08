@@ -5153,7 +5153,7 @@ select option {
                                             <td class="column1" id="column" name="column1">8</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour28" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour28" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5175,7 +5175,7 @@ select option {
                                             <td class="column1" id="column" name="column1">9</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour29" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour29" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5197,7 +5197,7 @@ select option {
                                             <td class="column1" id="column" name="column1">10</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour30" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour30" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5219,7 +5219,7 @@ select option {
                                             <td class="column1" id="column" name="column1">11</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour31" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour31" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5240,7 +5240,7 @@ select option {
                                             <td class="column1" id="column" name="column1">12</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour32" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour32" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5262,7 +5262,7 @@ select option {
                                             <td class="column1" id="column" name="column1">13</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour33" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour33" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5284,7 +5284,7 @@ select option {
                                             <td class="column1" id="column" name="column1">14</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour34" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour34" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5306,7 +5306,7 @@ select option {
                                             <td class="column1" id="column" name="column1">15</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour35" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour35" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5328,7 +5328,7 @@ select option {
                                             <td class="column1" id="column" name="column1">16</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour36" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour36" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5350,7 +5350,7 @@ select option {
                                             <td class="column1" id="column" name="column1">17</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour37" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour37" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5372,7 +5372,7 @@ select option {
                                             <td class="column1" id="column" name="column1">18</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour38" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour38" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5394,7 +5394,7 @@ select option {
                                             <td class="column1" id="column" name="column1">19</td>
 
                                             <td class="column11" id="column">
-                                                <select name="masonite-colour39" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour39" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5416,7 +5416,7 @@ select option {
                                             <td class="column1" id="column" name="column1">20</td>
 
                                             <td class="column11" id="column" style="background-color: white;">
-                                                <select name="masonite-colour40" class="masonite-select" id="masonite-select">
+                                                <select name="masonite-colour40" class="masonite-select">
                                                     <option value="Plain">Plain</option>
                                                     <option value="White">White</option>
                                                 </select>
@@ -5463,7 +5463,7 @@ select option {
     </div>
 
     <script>
-const select = document.querySelectorAll('select');
+        const select = document.querySelectorAll('select');
 
 const error = document.querySelectorAll('.error')
 
@@ -6147,614 +6147,17 @@ function sort1() {
 
 function changeRowSelection () {
     const selectoptions = document.querySelectorAll('#masonite-select');
+    console.log(selectoptions[0]);
     selectoptions[1].addEventListener('change', function() {
         if(selectoptions[1].selectedIndex === 1) {
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[0].selectedIndex = 0;
-        }
-    selectoptions[2].addEventListener('change', function() {
-        if(selectoptions[2].selectedIndex === 1) {
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-        }
-        selectoptions[3].addEventListener('change', function() {
-        if(selectoptions[3].selectedIndex === 1) {
             selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
             selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
+            console.log('working');
         }
-        selectoptions[4].addEventListener('change', function() {
-        if(selectoptions[4].selectedIndex === 1) {
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[5].addEventListener('change', function() {
-        if(selectoptions[5].selectedIndex === 1) {
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[6].addEventListener('change', function() {
-        if(selectoptions[6].selectedIndex === 1) {
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[7].addEventListener('change', function() {
-        if(selectoptions[7].selectedIndex === 1) {
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[8].addEventListener('change', function() {
-        if(selectoptions[8].selectedIndex === 1) {
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[9].addEventListener('change', function() {
-        if(selectoptions[9].selectedIndex === 1) {
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[10].addEventListener('change', function() {
-        if(selectoptions[10].selectedIndex === 1) {
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[11].addEventListener('change', function() {
-        if(selectoptions[11].selectedIndex === 1) {
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[12].addEventListener('change', function() {
-        if(selectoptions[12].selectedIndex === 1) {
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[13].addEventListener('change', function() {
-        if(selectoptions[13].selectedIndex === 1) {
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[14].addEventListener('change', function() {
-        if(selectoptions[14].selectedIndex === 1) {
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[15].addEventListener('change', function() {
-        if(selectoptions[15].selectedIndex === 1) {
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[16].addEventListener('change', function() {
-        if(selectoptions[16].selectedIndex === 1) {
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[17].addEventListener('change', function() {
-        if(selectoptions[17].selectedIndex === 1) {
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[18].addEventListener('change', function() {
-        if(selectoptions[18].selectedIndex === 1) {
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[19].addEventListener('change', function() {
-        if(selectoptions[19].selectedIndex === 1) {
-            selectoptions[18].selectedIndex = 1;
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[18].selectedIndex = 0;
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-        selectoptions[20].addEventListener('change', function() {
-        if(selectoptions[20].selectedIndex === 1) {
-            selectoptions[19].selectedIndex = 1;
-            selectoptions[18].selectedIndex = 1;
-            selectoptions[17].selectedIndex = 1;
-            selectoptions[16].selectedIndex = 1;
-            selectoptions[15].selectedIndex = 1;
-            selectoptions[14].selectedIndex = 1;
-            selectoptions[13].selectedIndex = 1;
-            selectoptions[12].selectedIndex = 1;
-            selectoptions[11].selectedIndex = 1;
-            selectoptions[10].selectedIndex = 1;
-            selectoptions[9].selectedIndex = 1;
-            selectoptions[8].selectedIndex = 1;
-            selectoptions[7].selectedIndex = 1;
-            selectoptions[6].selectedIndex = 1;
-            selectoptions[5].selectedIndex = 1;
-            selectoptions[4].selectedIndex = 1;
-            selectoptions[3].selectedIndex = 1;
-            selectoptions[2].selectedIndex = 1;
-            selectoptions[1].selectedIndex = 1;
-            selectoptions[0].selectedIndex = 1;
-        } else {
-            selectoptions[19].selectedIndex = 0;
-            selectoptions[18].selectedIndex = 0;
-            selectoptions[17].selectedIndex = 0;
-            selectoptions[16].selectedIndex = 0;
-            selectoptions[15].selectedIndex = 0;
-            selectoptions[14].selectedIndex = 0;
-            selectoptions[13].selectedIndex = 0;
-            selectoptions[12].selectedIndex = 0;
-            selectoptions[11].selectedIndex = 0;
-            selectoptions[10].selectedIndex = 0;
-            selectoptions[9].selectedIndex = 0;
-            selectoptions[8].selectedIndex = 0;
-            selectoptions[7].selectedIndex = 0;
-            selectoptions[6].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-            selectoptions[5].selectedIndex = 0;
-            selectoptions[4].selectedIndex = 0;
-            selectoptions[3].selectedIndex = 0;
-            selectoptions[2].selectedIndex = 0;
-            selectoptions[1].selectedIndex = 0;
-            selectoptions[0].selectedIndex = 0;
-        }
-                                                                                })
-                                                                            })
-                                                                        })
-                                                                    })
-                                                                })
-                                                            })
-                                                        })
-                                                    })
-                                                })
-                                            })
-                                        })
-                                    })
-                                })
-                            })
-                        })
-                    })
-                })
-            })
-        })
     })
 }
-            
-            
-            
+
+    
 
 
     </script>
