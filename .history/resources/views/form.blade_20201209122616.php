@@ -1110,7 +1110,7 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes3" class="value0">
-                                                    <option value="0">0</option>
+                                                <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -1282,7 +1282,8 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes4" class="value0">
-                                                    <option value="0">0</option>
+                                                <option value="0">0</option>
+
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -1455,7 +1456,8 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes5" class="value0">
-                                                    <option value="0">0</option>
+                                                <option value="0">0</option>
+
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -1628,7 +1630,8 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes6" class="value0">
-                                                    <option value="0">0</option>
+                                                <option value="0">0</option>
+
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -1801,7 +1804,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes7" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -1974,7 +1976,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes8" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2145,7 +2146,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes9" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2316,7 +2316,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes10" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2487,7 +2486,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes11" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2658,7 +2656,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes12" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2829,7 +2826,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes13" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -2999,7 +2995,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes14" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -3170,7 +3165,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes15" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -3339,7 +3333,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes16" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -3509,7 +3502,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes17" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -3680,7 +3672,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes18" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -3851,7 +3842,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes19" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -4022,7 +4012,6 @@
                                             </td>
                                             <th class="column10" id="column">
                                                 <select name="potholes20" class="value0">
-                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
