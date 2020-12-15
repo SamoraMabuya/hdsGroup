@@ -92,7 +92,9 @@ class FormController extends Controller {
 
         });
             
-        return ' <center>
+        return ' 
+        <body style="height: 30vh;">
+        <center>
         <div class="sentbox" style="transform: translate(0px, 800px); 
         width: 500px;
             height: 160px;
